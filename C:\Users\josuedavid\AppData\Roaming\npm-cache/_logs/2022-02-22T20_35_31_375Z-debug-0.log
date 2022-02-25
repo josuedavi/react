@@ -1,0 +1,110 @@
+0 verbose cli [
+0 verbose cli   '/usr/local/bin/node',
+0 verbose cli   '/usr/local/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   '--save',
+0 verbose cli   '@fortawesome/react-fontawesome'
+0 verbose cli ]
+1 info using npm@8.4.1
+2 info using node@v17.4.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 17ms
+6 timing config:load:builtin Completed in 17ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/josuedavid/Documents/react/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 verbose config tmp This setting is no longer used.  npm stores temporary files in a special
+11 verbose config location in the cache, and they are managed by
+11 verbose config     [`cacache`](http://npm.im/cacache).
+12 timing config:load:file:/Users/josuedavid/.npmrc Completed in 1ms
+13 timing config:load:user Completed in 1ms
+14 timing config:load:file:/usr/local/etc/npmrc Completed in 4ms
+15 timing config:load:global Completed in 4ms
+16 timing config:load:validate Completed in 0ms
+17 timing config:load:credentials Completed in 1ms
+18 timing config:load:setEnvs Completed in 1ms
+19 timing config:load Completed in 33ms
+20 timing npm:load:configload Completed in 33ms
+21 timing npm:load:setTitle Completed in 26ms
+22 timing config:load:flatten Completed in 4ms
+23 timing npm:load:display Completed in 7ms
+24 verbose logfile /Users/josuedavid/Documents/react/C:\Users\josuedavid\AppData\Roaming\npm-cache/_logs/2022-02-22T20_35_31_375Z-debug-0.log
+25 timing npm:load:logFile Completed in 10ms
+26 timing npm:load:timers Completed in 1ms
+27 timing npm:load:configScope Completed in 0ms
+28 timing npm:load Completed in 78ms
+29 timing arborist:ctor Completed in 12ms
+30 timing idealTree:init Completed in 313ms
+31 timing idealTree:userRequests Completed in 2ms
+32 silly idealTree buildDeps
+33 silly fetch manifest @fortawesome/react-fontawesome@*
+34 timing arborist:ctor Completed in 0ms
+35 http fetch GET 200 https://registry.npmjs.org/@fortawesome%2freact-fontawesome 1262ms (cache miss)
+36 silly fetch manifest @fortawesome/fontawesome-svg-core@^1.3.0
+37 http fetch GET 200 https://registry.npmjs.org/@fortawesome%2ffontawesome-svg-core 9ms (cache hit)
+38 silly fetch manifest react@>=16.x
+39 http fetch GET 200 https://registry.npmjs.org/react 45ms (cache revalidated)
+40 silly placeDep ROOT @fortawesome/react-fontawesome@0.1.17 OK for:  want: *
+41 timing idealTree:#root Completed in 1344ms
+42 timing idealTree:node_modules/@fortawesome/react-fontawesome Completed in 0ms
+43 timing idealTree:buildDeps Completed in 1359ms
+44 timing idealTree:fixDepFlags Completed in 0ms
+45 timing idealTree Completed in 1676ms
+46 timing reify:loadTrees Completed in 1678ms
+47 timing reify:diffTrees Completed in 50ms
+48 silly reify moves {}
+49 timing reify:retireShallow Completed in 1ms
+50 timing reify:createSparse Completed in 23ms
+51 timing reify:loadBundles Completed in 0ms
+52 silly audit bulk request {
+52 silly audit   '@fortawesome/fontawesome-common-types': [ '0.3.0' ],
+52 silly audit   '@fortawesome/fontawesome-free': [ '5.15.4' ],
+52 silly audit   '@fortawesome/fontawesome-svg-core': [ '1.3.0' ],
+52 silly audit   '@fortawesome/free-solid-svg-icons': [ '6.0.0' ],
+52 silly audit   '@popperjs/core': [ '2.11.2' ],
+52 silly audit   bootstrap: [ '5.1.3' ],
+52 silly audit   'computed-style': [ '0.1.4' ],
+52 silly audit   config: [ '1.31.0' ],
+52 silly audit   'fa-icons': [ '0.2.0' ],
+52 silly audit   'js-tokens': [ '4.0.0' ],
+52 silly audit   json5: [ '1.0.1' ],
+52 silly audit   'line-height': [ '0.1.1' ],
+52 silly audit   'lit-element': [ '2.5.1' ],
+52 silly audit   'lit-html': [ '1.4.1' ],
+52 silly audit   'loose-envify': [ '1.4.0' ],
+52 silly audit   minimist: [ '1.2.5' ],
+52 silly audit   'object-assign': [ '4.1.1' ],
+52 silly audit   'performance-now': [ '0.2.0', '2.1.0' ],
+52 silly audit   'prop-types': [ '15.8.1' ],
+52 silly audit   raf: [ '3.4.1' ],
+52 silly audit   react: [ '16.14.0' ],
+52 silly audit   'react-icons': [ '4.3.1' ],
+52 silly audit   'react-is': [ '16.13.1' ],
+52 silly audit   'react-motion': [ '0.5.2' ],
+52 silly audit   'react-scrollbar': [ '0.5.6' ],
+52 silly audit   '@fortawesome/react-fontawesome': [ '0.1.17' ]
+52 silly audit }
+53 silly tarball no local data for @fortawesome/react-fontawesome@https://registry.npmjs.org/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.17.tgz. Extracting by manifest.
+54 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 129ms
+55 timing auditReport:getReport Completed in 133ms
+56 silly audit report {}
+57 timing auditReport:init Completed in 0ms
+58 timing reify:audit Completed in 133ms
+59 http fetch GET 200 https://registry.npmjs.org/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.17.tgz 553ms (cache miss)
+60 timing reifyNode:node_modules/@fortawesome/react-fontawesome Completed in 654ms
+61 timing reify:unpack Completed in 659ms
+62 timing reify:unretire Completed in 0ms
+63 timing build:queue Completed in 0ms
+64 timing build:deps Completed in 1ms
+65 timing build Completed in 1ms
+66 timing reify:build Completed in 2ms
+67 timing reify:trash Completed in 0ms
+68 timing reify:save Completed in 12ms
+69 timing reify Completed in 2701ms
+70 silly ADD node_modules/@fortawesome/react-fontawesome
+71 timing command:install Completed in 2726ms
+72 verbose exit 0
+73 timing npm Completed in 3509ms
+74 info ok

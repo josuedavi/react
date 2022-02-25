@@ -1,0 +1,2516 @@
+0 verbose cli [
+0 verbose cli   '/usr/local/bin/node',
+0 verbose cli   '/usr/local/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   '--ignore-scripts',
+0 verbose cli   '@types/connect@ts4.5',
+0 verbose cli   '@types/express-serve-static-core@ts4.5',
+0 verbose cli   '--save-dev',
+0 verbose cli   '--user-agent=typesInstaller/4.5.4'
+0 verbose cli ]
+1 info using npm@8.4.1
+2 info using node@v17.4.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 173ms
+6 timing config:load:builtin Completed in 174ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/josuedavid/Library/Caches/typescript/4.5/.npmrc Completed in 3ms
+10 timing config:load:project Completed in 4ms
+11 verbose config tmp This setting is no longer used.  npm stores temporary files in a special
+11 verbose config location in the cache, and they are managed by
+11 verbose config     [`cacache`](http://npm.im/cacache).
+12 timing config:load:file:/Users/josuedavid/.npmrc Completed in 1ms
+13 timing config:load:user Completed in 1ms
+14 timing config:load:file:/usr/local/etc/npmrc Completed in 2ms
+15 timing config:load:global Completed in 2ms
+16 timing config:load:validate Completed in 1ms
+17 timing config:load:credentials Completed in 1ms
+18 timing config:load:setEnvs Completed in 1ms
+19 timing config:load Completed in 195ms
+20 timing npm:load:configload Completed in 195ms
+21 timing npm:load:setTitle Completed in 31ms
+22 timing config:load:flatten Completed in 4ms
+23 timing npm:load:display Completed in 7ms
+24 verbose logfile /Users/josuedavid/Documents/react/C:\Users\josuedavid\AppData\Roaming\npm-cache/_logs/2022-02-06T18_13_26_365Z-debug-0.log
+25 timing npm:load:logFile Completed in 50ms
+26 timing npm:load:timers Completed in 0ms
+27 timing npm:load:configScope Completed in 0ms
+28 timing npm:load Completed in 284ms
+29 timing arborist:ctor Completed in 0ms
+30 timing idealTree:init Completed in 27ms
+31 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+32 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress-serve-static-core 679ms (cache hit)
+33 http fetch GET 200 https://registry.npmjs.org/@types%2fconnect 749ms (cache hit)
+34 timing idealTree:userRequests Completed in 821ms
+35 silly idealTree buildDeps
+36 silly fetch manifest @types/connect@3.4.35
+37 silly fetch manifest @types/express-serve-static-core@4.17.28
+38 silly placeDep ROOT @types/connect@3.4.35 OK for:  want: 3.4.35
+39 silly placeDep ROOT @types/express-serve-static-core@4.17.28 OK for:  want: 4.17.28
+40 silly fetch manifest @types/node@*
+41 silly fetch manifest @types/qs@*
+42 silly fetch manifest @types/range-parser@*
+43 http fetch GET 200 https://registry.npmjs.org/@types%2frange-parser 31ms (cache hit)
+44 http fetch GET 200 https://registry.npmjs.org/@types%2fqs 31ms (cache hit)
+45 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 46ms (cache hit)
+46 timing idealTree:#root Completed in 126ms
+47 silly placeDep ROOT @types/node@17.0.15 OK for: @types/connect@3.4.35 want: *
+48 timing idealTree:node_modules/@types/connect Completed in 8ms
+49 silly placeDep ROOT @types/qs@6.9.7 OK for: @types/express-serve-static-core@4.17.28 want: *
+50 silly placeDep ROOT @types/range-parser@1.2.4 OK for: @types/express-serve-static-core@4.17.28 want: *
+51 timing idealTree:node_modules/@types/express-serve-static-core Completed in 33ms
+52 timing idealTree:node_modules/@types/node Completed in 0ms
+53 timing idealTree:node_modules/@types/qs Completed in 1ms
+54 timing idealTree:node_modules/@types/range-parser Completed in 0ms
+55 timing idealTree:buildDeps Completed in 169ms
+56 timing idealTree:fixDepFlags Completed in 9ms
+57 timing idealTree Completed in 1028ms
+58 timing reify:loadTrees Completed in 1028ms
+59 timing reify:diffTrees Completed in 38ms
+60 silly reify mark retired [
+60 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/ansi-regex'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/ansi-styles'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/anymatch'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/arr-diff'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/arr-flatten'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/arr-union'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/array-unique'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/assign-symbols'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/async-each'
+68 silly reify ]
+69 silly reify mark retired [ '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/atob' ]
+70 silly reify mark retired [ '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/base' ]
+71 silly reify mark retired [
+71 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/binary-extensions'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/bindings'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/braces'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/browserslist'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/cache-base'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/caniuse-lite'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/chalk'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/chokidar'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/class-utils'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/collection-visit'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/color-convert'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/color-name'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/component-emitter'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/copy-descriptor'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/core-util-is'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/csstype'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/debug'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/decode-uri-component'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/define-property'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/diff-sequences'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/electron-to-chromium'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/escalade'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/eventemitter3'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/expand-brackets'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/extend-shallow'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/extglob'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/file-uri-to-path'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/fill-range'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/follow-redirects'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/for-in'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/fragment-cache'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/fsevents'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/get-value'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/glob-parent'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/graceful-fs'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/has-flag'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/has-value'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/has-values'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/hoist-non-react-statics'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/http-proxy'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/http-proxy-middleware'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/inherits'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-accessor-descriptor'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-binary-path'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-buffer'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-data-descriptor'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-descriptor'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-extglob'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-extendable'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-glob'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-number'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-plain-obj'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-plain-object'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-windows'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/isarray'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/isobject'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/jest-diff'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/jest-get-type'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/kind-of'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/map-cache'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/map-visit'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/micromatch'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/mixin-deep'
+133 silly reify ]
+134 silly reify mark retired [ '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/ms' ]
+135 silly reify mark retired [ '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/nan' ]
+136 silly reify mark retired [
+136 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/nanoid'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/nanomatch'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/node-releases'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/normalize-path'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/object-copy'
+140 silly reify ]
+141 silly reify mark retired [
+141 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/object-visit'
+141 silly reify ]
+142 silly reify mark retired [
+142 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/object.pick'
+142 silly reify ]
+143 silly reify mark retired [
+143 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/pascalcase'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/path-dirname'
+144 silly reify ]
+145 silly reify mark retired [
+145 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/path-is-absolute'
+145 silly reify ]
+146 silly reify mark retired [
+146 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/picocolors'
+146 silly reify ]
+147 silly reify mark retired [
+147 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/picomatch'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/posix-character-classes'
+148 silly reify ]
+149 silly reify mark retired [
+149 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/postcss'
+149 silly reify ]
+150 silly reify mark retired [
+150 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/pretty-format'
+150 silly reify ]
+151 silly reify mark retired [
+151 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/process-nextick-args'
+151 silly reify ]
+152 silly reify mark retired [
+152 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/react-is'
+152 silly reify ]
+153 silly reify mark retired [
+153 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/readable-stream'
+153 silly reify ]
+154 silly reify mark retired [
+154 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/readdirp'
+154 silly reify ]
+155 silly reify mark retired [
+155 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/regex-not'
+155 silly reify ]
+156 silly reify mark retired [
+156 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/remove-trailing-separator'
+156 silly reify ]
+157 silly reify mark retired [
+157 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/repeat-element'
+157 silly reify ]
+158 silly reify mark retired [
+158 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/repeat-string'
+158 silly reify ]
+159 silly reify mark retired [
+159 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/requires-port'
+159 silly reify ]
+160 silly reify mark retired [
+160 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/resolve-url'
+160 silly reify ]
+161 silly reify mark retired [ '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/ret' ]
+162 silly reify mark retired [
+162 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/safe-regex'
+162 silly reify ]
+163 silly reify mark retired [
+163 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/safe-buffer'
+163 silly reify ]
+164 silly reify mark retired [
+164 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/set-value'
+164 silly reify ]
+165 silly reify mark retired [
+165 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/snapdragon'
+165 silly reify ]
+166 silly reify mark retired [
+166 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/snapdragon-node'
+166 silly reify ]
+167 silly reify mark retired [
+167 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/snapdragon-util'
+167 silly reify ]
+168 silly reify mark retired [
+168 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/source-map'
+168 silly reify ]
+169 silly reify mark retired [
+169 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/source-map-js'
+169 silly reify ]
+170 silly reify mark retired [
+170 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/source-map-resolve'
+170 silly reify ]
+171 silly reify mark retired [
+171 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/source-map-url'
+171 silly reify ]
+172 silly reify mark retired [
+172 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/split-string'
+172 silly reify ]
+173 silly reify mark retired [
+173 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/static-extend'
+173 silly reify ]
+174 silly reify mark retired [
+174 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/string_decoder'
+174 silly reify ]
+175 silly reify mark retired [
+175 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/supports-color'
+175 silly reify ]
+176 silly reify mark retired [
+176 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/to-fast-properties'
+176 silly reify ]
+177 silly reify mark retired [
+177 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/to-object-path'
+177 silly reify ]
+178 silly reify mark retired [
+178 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/to-regex'
+178 silly reify ]
+179 silly reify mark retired [
+179 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/to-regex-range'
+179 silly reify ]
+180 silly reify mark retired [
+180 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/union-value'
+180 silly reify ]
+181 silly reify mark retired [
+181 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/unset-value'
+181 silly reify ]
+182 silly reify mark retired [
+182 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/upath'
+182 silly reify ]
+183 silly reify mark retired [ '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/urix' ]
+184 silly reify mark retired [ '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/use' ]
+185 silly reify mark retired [
+185 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/util-deprecate'
+185 silly reify ]
+186 silly reify mark retired [
+186 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@babel/helper-validator-identifier'
+186 silly reify ]
+187 silly reify mark retired [
+187 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@babel/parser'
+187 silly reify ]
+188 silly reify mark retired [
+188 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@babel/types'
+188 silly reify ]
+189 silly reify mark retired [
+189 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/accepts'
+189 silly reify ]
+190 silly reify mark retired [
+190 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/acorn'
+190 silly reify ]
+191 silly reify mark retired [
+191 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/argparse'
+191 silly reify ]
+192 silly reify mark retired [
+192 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/aria-query'
+192 silly reify ]
+193 silly reify mark retired [
+193 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/array.prototype.flat'
+193 silly reify ]
+194 silly reify mark retired [
+194 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/array.prototype.flatmap'
+194 silly reify ]
+195 silly reify mark retired [
+195 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/asap'
+195 silly reify ]
+196 silly reify mark retired [
+196 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/async'
+196 silly reify ]
+197 silly reify mark retired [
+197 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/atob'
+197 silly reify ]
+198 silly reify mark retired [
+198 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/autoprefixer'
+198 silly reify ]
+199 silly reify mark retired [
+199 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/babel-plugin-macros'
+199 silly reify ]
+200 silly reify mark retired [
+200 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/babel-types'
+200 silly reify ]
+201 silly reify mark retired [
+201 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/babel__core'
+201 silly reify ]
+202 silly reify mark retired [
+202 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/babel__generator'
+202 silly reify ]
+203 silly reify mark retired [
+203 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/babel__template'
+203 silly reify ]
+204 silly reify mark retired [
+204 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/babel__traverse'
+204 silly reify ]
+205 silly reify mark retired [
+205 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/balanced-match'
+205 silly reify ]
+206 silly reify mark retired [
+206 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/big.js'
+206 silly reify ]
+207 silly reify mark retired [
+207 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/bluebird'
+207 silly reify ]
+208 silly reify mark retired [
+208 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/body-parser'
+208 silly reify ]
+209 silly reify mark retired [
+209 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/bonjour'
+209 silly reify ]
+210 silly reify mark retired [
+210 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/boolbase'
+210 silly reify ]
+211 silly reify mark retired [
+211 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/brace-expansion'
+211 silly reify ]
+212 silly reify mark retired [
+212 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/braces'
+212 silly reify ]
+213 silly reify mark retired [
+213 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/browserslist'
+213 silly reify ]
+214 silly reify mark retired [
+214 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/bser'
+214 silly reify ]
+215 silly reify mark retired [
+215 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/buffer-from'
+215 silly reify ]
+216 silly reify mark retired [
+216 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/bytes'
+216 silly reify ]
+217 silly reify mark retired [
+217 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/call-bind'
+217 silly reify ]
+218 silly reify mark retired [
+218 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/camelcase-css'
+218 silly reify ]
+219 silly reify mark retired [
+219 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/caniuse-api'
+219 silly reify ]
+220 silly reify mark retired [
+220 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/caniuse-lite'
+220 silly reify ]
+221 silly reify mark retired [
+221 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/case-sensitive-paths-webpack-plugin'
+221 silly reify ]
+222 silly reify mark retired [
+222 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/check-types'
+222 silly reify ]
+223 silly reify mark retired [
+223 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/clean-css'
+223 silly reify ]
+224 silly reify mark retired [
+224 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/co'
+224 silly reify ]
+225 silly reify mark retired [
+225 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/color-convert'
+225 silly reify ]
+226 silly reify mark retired [
+226 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/color-name'
+226 silly reify ]
+227 silly reify mark retired [
+227 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/combined-stream'
+227 silly reify ]
+228 silly reify mark retired [
+228 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/common-tags'
+228 silly reify ]
+229 silly reify mark retired [
+229 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/commondir'
+229 silly reify ]
+230 silly reify mark retired [
+230 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/compressible'
+230 silly reify ]
+231 silly reify mark retired [
+231 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/compression'
+231 silly reify ]
+232 silly reify mark retired [
+232 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/concat-map'
+232 silly reify ]
+233 silly reify mark retired [
+233 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/confusing-browser-globals'
+233 silly reify ]
+234 silly reify mark retired [
+234 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/connect'
+234 silly reify ]
+235 silly reify mark retired [
+235 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/connect-history-api-fallback'
+235 silly reify ]
+236 silly reify mark retired [
+236 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/content-disposition'
+236 silly reify ]
+237 silly reify mark retired [
+237 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/content-type'
+237 silly reify ]
+238 silly reify mark retired [
+238 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/convert-source-map'
+238 silly reify ]
+239 silly reify mark retired [
+239 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/cookie'
+239 silly reify ]
+240 silly reify mark retired [
+240 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/cookie-signature'
+240 silly reify ]
+241 silly reify mark retired [
+241 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/core-js'
+241 silly reify ]
+242 silly reify mark retired [
+242 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/cross-spawn'
+242 silly reify ]
+243 silly reify mark retired [
+243 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/css'
+243 silly reify ]
+244 silly reify mark retired [
+244 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/css-declaration-sorter'
+244 silly reify ]
+245 silly reify mark retired [
+245 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/css-tree'
+245 silly reify ]
+246 silly reify mark retired [
+246 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/cssesc'
+246 silly reify ]
+247 silly reify mark retired [
+247 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/cssnano'
+247 silly reify ]
+248 silly reify mark retired [
+248 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/csso'
+248 silly reify ]
+249 silly reify mark retired [
+249 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/cssom'
+249 silly reify ]
+250 silly reify mark retired [
+250 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/cssstyle'
+250 silly reify ]
+251 silly reify mark retired [
+251 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/damerau-levenshtein'
+251 silly reify ]
+252 silly reify mark retired [
+252 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/data-urls'
+252 silly reify ]
+253 silly reify mark retired [
+253 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/debug'
+253 silly reify ]
+254 silly reify mark retired [
+254 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/decode-uri-component'
+254 silly reify ]
+255 silly reify mark retired [
+255 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/dedent'
+255 silly reify ]
+256 silly reify mark retired [
+256 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/deep-equal'
+256 silly reify ]
+257 silly reify mark retired [
+257 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/default-gateway'
+257 silly reify ]
+258 silly reify mark retired [
+258 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/define-properties'
+258 silly reify ]
+259 silly reify mark retired [
+259 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/defined'
+259 silly reify ]
+260 silly reify mark retired [
+260 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/depd'
+260 silly reify ]
+261 silly reify mark retired [
+261 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/detect-node'
+261 silly reify ]
+262 silly reify mark retired [
+262 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/destroy'
+262 silly reify ]
+263 silly reify mark retired [
+263 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/detective'
+263 silly reify ]
+264 silly reify mark retired [
+264 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/didyoumean'
+264 silly reify ]
+265 silly reify mark retired [
+265 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/dir-glob'
+265 silly reify ]
+266 silly reify mark retired [
+266 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/dlv'
+266 silly reify ]
+267 silly reify mark retired [
+267 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/dns-packet'
+267 silly reify ]
+268 silly reify mark retired [
+268 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/doctrine'
+268 silly reify ]
+269 silly reify mark retired [
+269 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/domexception'
+269 silly reify ]
+270 silly reify mark retired [
+270 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/ee-first'
+270 silly reify ]
+271 silly reify mark retired [
+271 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/ejs'
+271 silly reify ]
+272 silly reify mark retired [
+272 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/encodeurl'
+272 silly reify ]
+273 silly reify mark retired [
+273 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/es-abstract'
+273 silly reify ]
+274 silly reify mark retired [
+274 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/es-to-primitive'
+274 silly reify ]
+275 silly reify mark retired [
+275 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/escape-html'
+275 silly reify ]
+276 silly reify mark retired [
+276 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/escodegen'
+276 silly reify ]
+277 silly reify mark retired [
+277 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/eslint'
+277 silly reify ]
+278 silly reify mark retired [
+278 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/eslint-scope'
+278 silly reify ]
+279 silly reify mark retired [
+279 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/eslint-utils'
+279 silly reify ]
+280 silly reify mark retired [
+280 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/eslint-visitor-keys'
+280 silly reify ]
+281 silly reify mark retired [
+281 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/esprima'
+281 silly reify ]
+282 silly reify mark retired [
+282 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/esquery'
+282 silly reify ]
+283 silly reify mark retired [
+283 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/estraverse'
+283 silly reify ]
+284 silly reify mark retired [
+284 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/estree'
+284 silly reify ]
+285 silly reify mark retired [
+285 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/esutils'
+285 silly reify ]
+286 silly reify mark retired [
+286 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/etag'
+286 silly reify ]
+287 silly reify mark retired [
+287 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/events'
+287 silly reify ]
+288 silly reify mark retired [
+288 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/exit'
+288 silly reify ]
+289 silly reify mark retired [
+289 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/express'
+289 silly reify ]
+290 silly reify mark retired [
+290 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/express-serve-static-core'
+290 silly reify ]
+291 silly reify mark retired [
+291 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/fast-levenshtein'
+291 silly reify ]
+292 silly reify mark retired [
+292 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/fb-watchman'
+292 silly reify ]
+293 silly reify mark retired [
+293 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/file-entry-cache'
+293 silly reify ]
+294 silly reify mark retired [
+294 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/file-loader'
+294 silly reify ]
+295 silly reify mark retired [
+295 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/fill-range'
+295 silly reify ]
+296 silly reify mark retired [
+296 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/finalhandler'
+296 silly reify ]
+297 silly reify mark retired [
+297 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/find-cache-dir'
+297 silly reify ]
+298 silly reify mark retired [
+298 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/find-root'
+298 silly reify ]
+299 silly reify mark retired [
+299 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/flat-cache'
+299 silly reify ]
+300 silly reify mark retired [
+300 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/follow-redirects'
+300 silly reify ]
+301 silly reify mark retired [
+301 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/forwarded'
+301 silly reify ]
+302 silly reify mark retired [
+302 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/fresh'
+302 silly reify ]
+303 silly reify mark retired [
+303 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/fs-extra'
+303 silly reify ]
+304 silly reify mark retired [
+304 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/function-bind'
+304 silly reify ]
+305 silly reify mark retired [
+305 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/functional-red-black-tree'
+305 silly reify ]
+306 silly reify mark retired [
+306 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/get-intrinsic'
+306 silly reify ]
+307 silly reify mark retired [
+307 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/glob'
+307 silly reify ]
+308 silly reify mark retired [
+308 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/glob-parent'
+308 silly reify ]
+309 silly reify mark retired [
+309 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/glob-to-regexp'
+309 silly reify ]
+310 silly reify mark retired [
+310 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/global-modules'
+310 silly reify ]
+311 silly reify mark retired [
+311 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/global-prefix'
+311 silly reify ]
+312 silly reify mark retired [
+312 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/graceful-fs'
+312 silly reify ]
+313 silly reify mark retired [
+313 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/has'
+313 silly reify ]
+314 silly reify mark retired [
+314 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/has-symbols'
+314 silly reify ]
+315 silly reify mark retired [
+315 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/he'
+315 silly reify ]
+316 silly reify mark retired [
+316 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/hoist-non-react-statics'
+316 silly reify ]
+317 silly reify mark retired [
+317 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/html-encoding-sniffer'
+317 silly reify ]
+318 silly reify mark retired [
+318 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/html-escaper'
+318 silly reify ]
+319 silly reify mark retired [
+319 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/html-minifier'
+319 silly reify ]
+320 silly reify mark retired [
+320 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/html-minifier-terser'
+320 silly reify ]
+321 silly reify mark retired [
+321 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/html-webpack-plugin'
+321 silly reify ]
+322 silly reify mark retired [
+322 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/http-errors'
+322 silly reify ]
+323 silly reify mark retired [
+323 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/http-proxy'
+323 silly reify ]
+324 silly reify mark retired [
+324 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/hyphenate-style-name'
+324 silly reify ]
+325 silly reify mark retired [
+325 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/icss-utils'
+325 silly reify ]
+326 silly reify mark retired [
+326 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/imurmurhash'
+326 silly reify ]
+327 silly reify mark retired [
+327 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/inherits'
+327 silly reify ]
+328 silly reify mark retired [
+328 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/ini'
+328 silly reify ]
+329 silly reify mark retired [
+329 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/internal-slot'
+329 silly reify ]
+330 silly reify mark retired [
+330 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/ip'
+330 silly reify ]
+331 silly reify mark retired [
+331 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-arguments'
+331 silly reify ]
+332 silly reify mark retired [
+332 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-bigint'
+332 silly reify ]
+333 silly reify mark retired [
+333 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-boolean-object'
+333 silly reify ]
+334 silly reify mark retired [
+334 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-callable'
+334 silly reify ]
+335 silly reify mark retired [
+335 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-core-module'
+335 silly reify ]
+336 silly reify mark retired [
+336 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-date-object'
+336 silly reify ]
+337 silly reify mark retired [
+337 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-glob'
+337 silly reify ]
+338 silly reify mark retired [
+338 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-number'
+338 silly reify ]
+339 silly reify mark retired [
+339 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-regex'
+339 silly reify ]
+340 silly reify mark retired [
+340 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-string'
+340 silly reify ]
+341 silly reify mark retired [
+341 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-typedarray'
+341 silly reify ]
+342 silly reify mark retired [
+342 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/isarray'
+342 silly reify ]
+343 silly reify mark retired [
+343 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/isexe'
+343 silly reify ]
+344 silly reify mark retired [
+344 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/istanbul-lib-coverage'
+344 silly reify ]
+345 silly reify mark retired [
+345 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/istanbul-lib-instrument'
+345 silly reify ]
+346 silly reify mark retired [
+346 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/istanbul-lib-report'
+346 silly reify ]
+347 silly reify mark retired [
+347 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/istanbul-lib-source-maps'
+347 silly reify ]
+348 silly reify mark retired [
+348 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/istanbul-reports'
+348 silly reify ]
+349 silly reify mark retired [
+349 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/jake'
+349 silly reify ]
+350 silly reify mark retired [
+350 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/jest'
+350 silly reify ]
+351 silly reify mark retired [
+351 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/js-yaml'
+351 silly reify ]
+352 silly reify mark retired [
+352 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/jsdom'
+352 silly reify ]
+353 silly reify mark retired [
+353 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/jsesc'
+353 silly reify ]
+354 silly reify mark retired [
+354 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/json-parse-better-errors'
+354 silly reify ]
+355 silly reify mark retired [
+355 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/json-schema'
+355 silly reify ]
+356 silly reify mark retired [
+356 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/jsonfile'
+356 silly reify ]
+357 silly reify mark retired [
+357 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/kind-of'
+357 silly reify ]
+358 silly reify mark retired [
+358 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/language-tags'
+358 silly reify ]
+359 silly reify mark retired [
+359 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/loader-runner'
+359 silly reify ]
+360 silly reify mark retired [
+360 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/loader-utils'
+360 silly reify ]
+361 silly reify mark retired [
+361 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lodash'
+361 silly reify ]
+362 silly reify mark retired [
+362 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lodash.debounce'
+362 silly reify ]
+363 silly reify mark retired [
+363 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lodash.memoize'
+363 silly reify ]
+364 silly reify mark retired [
+364 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lodash.merge'
+364 silly reify ]
+365 silly reify mark retired [
+365 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lodash.sortby'
+365 silly reify ]
+366 silly reify mark retired [
+366 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lodash.uniq'
+366 silly reify ]
+367 silly reify mark retired [
+367 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lru-cache'
+367 silly reify ]
+368 silly reify mark retired [
+368 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lz-string'
+368 silly reify ]
+369 silly reify mark retired [
+369 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/media-typer'
+369 silly reify ]
+370 silly reify mark retired [
+370 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/merge-descriptors'
+370 silly reify ]
+371 silly reify mark retired [
+371 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/merge-stream'
+371 silly reify ]
+372 silly reify mark retired [
+372 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/merge2'
+372 silly reify ]
+373 silly reify mark retired [
+373 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/methods'
+373 silly reify ]
+374 silly reify mark retired [
+374 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/micromatch'
+374 silly reify ]
+375 silly reify mark retired [
+375 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/mime'
+375 silly reify ]
+376 silly reify mark retired [
+376 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/mime-db'
+376 silly reify ]
+377 silly reify mark retired [
+377 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/mime-types'
+377 silly reify ]
+378 silly reify mark retired [
+378 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/min-indent'
+378 silly reify ]
+379 silly reify mark retired [
+379 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/minimalistic-assert'
+379 silly reify ]
+380 silly reify mark retired [
+380 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/minimatch'
+380 silly reify ]
+381 silly reify mark retired [
+381 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/minimist'
+381 silly reify ]
+382 silly reify mark retired [
+382 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/mkdirp'
+382 silly reify ]
+383 silly reify mark retired [
+383 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/ms'
+383 silly reify ]
+384 silly reify mark retired [
+384 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/multicast-dns'
+384 silly reify ]
+385 silly reify mark retired [
+385 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/natural-compare'
+385 silly reify ]
+386 silly reify mark retired [
+386 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/negotiator'
+386 silly reify ]
+387 silly reify mark retired [
+387 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/node'
+387 silly reify ]
+388 silly reify mark retired [
+388 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/node-forge'
+388 silly reify ]
+389 silly reify mark retired [
+389 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/node-int64'
+389 silly reify ]
+390 silly reify mark retired [
+390 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/node-sass'
+390 silly reify ]
+391 silly reify mark retired [
+391 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/normalize-path'
+391 silly reify ]
+392 silly reify mark retired [
+392 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/nwsapi'
+392 silly reify ]
+393 silly reify mark retired [
+393 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/object-assign'
+393 silly reify ]
+394 silly reify mark retired [
+394 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/object-hash'
+394 silly reify ]
+395 silly reify mark retired [
+395 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/object-inspect'
+395 silly reify ]
+396 silly reify mark retired [
+396 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/object-keys'
+396 silly reify ]
+397 silly reify mark retired [
+397 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/object.fromentries'
+397 silly reify ]
+398 silly reify mark retired [
+398 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/object.getownpropertydescriptors'
+398 silly reify ]
+399 silly reify mark retired [
+399 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/on-finished'
+399 silly reify ]
+400 silly reify mark retired [
+400 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/on-headers'
+400 silly reify ]
+401 silly reify mark retired [
+401 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/once'
+401 silly reify ]
+402 silly reify mark retired [
+402 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/parse-json'
+402 silly reify ]
+403 silly reify mark retired [
+403 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/parse5'
+403 silly reify ]
+404 silly reify mark retired [
+404 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/parseurl'
+404 silly reify ]
+405 silly reify mark retired [
+405 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/path-is-absolute'
+405 silly reify ]
+406 silly reify mark retired [
+406 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/path-parse'
+406 silly reify ]
+407 silly reify mark retired [
+407 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/picomatch'
+407 silly reify ]
+408 silly reify mark retired [
+408 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/postcss-flexbugs-fixes'
+408 silly reify ]
+409 silly reify mark retired [
+409 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/postcss-gap-properties'
+409 silly reify ]
+410 silly reify mark retired [
+410 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/postcss-modules-extract-imports'
+410 silly reify ]
+411 silly reify mark retired [
+411 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/postcss-modules-local-by-default'
+411 silly reify ]
+412 silly reify mark retired [
+412 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/postcss-modules-scope'
+412 silly reify ]
+413 silly reify mark retired [
+413 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/postcss-modules-values'
+413 silly reify ]
+414 silly reify mark retired [
+414 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/postcss-preset-env'
+414 silly reify ]
+415 silly reify mark retired [
+415 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/prelude-ls'
+415 silly reify ]
+416 silly reify mark retired [
+416 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/prompts'
+416 silly reify ]
+417 silly reify mark retired [
+417 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/prop-types'
+417 silly reify ]
+418 silly reify mark retired [
+418 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/proxy-addr'
+418 silly reify ]
+419 silly reify mark retired [
+419 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/psl'
+419 silly reify ]
+420 silly reify mark retired [
+420 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/punycode'
+420 silly reify ]
+421 silly reify mark retired [
+421 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/q'
+421 silly reify ]
+422 silly reify mark retired [
+422 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/qs'
+422 silly reify ]
+423 silly reify mark retired [
+423 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/raf'
+423 silly reify ]
+424 silly reify mark retired [
+424 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/randombytes'
+424 silly reify ]
+425 silly reify mark retired [
+425 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/range-parser'
+425 silly reify ]
+426 silly reify mark retired [
+426 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/react'
+426 silly reify ]
+427 silly reify mark retired [
+427 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/react-dev-utils'
+427 silly reify ]
+428 silly reify mark retired [
+428 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/react-dom'
+428 silly reify ]
+429 silly reify mark retired [
+429 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/react-is'
+429 silly reify ]
+430 silly reify mark retired [
+430 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/react-transition-group'
+430 silly reify ]
+431 silly reify mark retired [
+431 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/readable-stream'
+431 silly reify ]
+432 silly reify mark retired [
+432 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/recursive-readdir'
+432 silly reify ]
+433 silly reify mark retired [
+433 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/regenerate'
+433 silly reify ]
+434 silly reify mark retired [
+434 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/regenerator-runtime'
+434 silly reify ]
+435 silly reify mark retired [
+435 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/relateurl'
+435 silly reify ]
+436 silly reify mark retired [
+436 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/require-directory'
+436 silly reify ]
+437 silly reify mark retired [
+437 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/require-from-string'
+437 silly reify ]
+438 silly reify mark retired [
+438 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/requires-port'
+438 silly reify ]
+439 silly reify mark retired [
+439 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/resolve'
+439 silly reify ]
+440 silly reify mark retired [
+440 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/retry'
+440 silly reify ]
+441 silly reify mark retired [
+441 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/rimraf'
+441 silly reify ]
+442 silly reify mark retired [
+442 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/run-parallel'
+442 silly reify ]
+443 silly reify mark retired [
+443 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/safer-buffer'
+443 silly reify ]
+444 silly reify mark retired [
+444 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/sass'
+444 silly reify ]
+445 silly reify mark retired [
+445 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/sass-loader'
+445 silly reify ]
+446 silly reify mark retired [
+446 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/sax'
+446 silly reify ]
+447 silly reify mark retired [
+447 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/scheduler'
+447 silly reify ]
+448 silly reify mark retired [
+448 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/semver'
+448 silly reify ]
+449 silly reify mark retired [
+449 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/send'
+449 silly reify ]
+450 silly reify mark retired [
+450 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/serialize-javascript'
+450 silly reify ]
+451 silly reify mark retired [
+451 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/serve-index'
+451 silly reify ]
+452 silly reify mark retired [
+452 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/serve-static'
+452 silly reify ]
+453 silly reify mark retired [
+453 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/shebang-command'
+453 silly reify ]
+454 silly reify mark retired [
+454 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/shell-quote'
+454 silly reify ]
+455 silly reify mark retired [
+455 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/signal-exit'
+455 silly reify ]
+456 silly reify mark retired [
+456 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/sockjs'
+456 silly reify ]
+457 silly reify mark retired [
+457 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/source-list-map'
+457 silly reify ]
+458 silly reify mark retired [
+458 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/source-map-support'
+458 silly reify ]
+459 silly reify mark retired [
+459 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/spdy'
+459 silly reify ]
+460 silly reify mark retired [
+460 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/sprintf'
+460 silly reify ]
+461 silly reify mark retired [
+461 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/sprintf-js'
+461 silly reify ]
+462 silly reify mark retired [
+462 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/stack-utils'
+462 silly reify ]
+463 silly reify mark retired [
+463 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/statuses'
+463 silly reify ]
+464 silly reify mark retired [
+464 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/string-natural-compare'
+464 silly reify ]
+465 silly reify mark retired [
+465 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/string.prototype.matchall'
+465 silly reify ]
+466 silly reify mark retired [
+466 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/stringify-object'
+466 silly reify ]
+467 silly reify mark retired [
+467 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/strip-comments'
+467 silly reify ]
+468 silly reify mark retired [
+468 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/strip-final-newline'
+468 silly reify ]
+469 silly reify mark retired [
+469 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/stylis'
+469 silly reify ]
+470 silly reify mark retired [
+470 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/supports-color'
+470 silly reify ]
+471 silly reify mark retired [
+471 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/svg-parser'
+471 silly reify ]
+472 silly reify mark retired [
+472 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/svgo'
+472 silly reify ]
+473 silly reify mark retired [
+473 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/symbol-tree'
+473 silly reify ]
+474 silly reify mark retired [
+474 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/tailwindcss'
+474 silly reify ]
+475 silly reify mark retired [
+475 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/tapable'
+475 silly reify ]
+476 silly reify mark retired [
+476 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/testing-library__jest-dom'
+476 silly reify ]
+477 silly reify mark retired [
+477 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/text-table'
+477 silly reify ]
+478 silly reify mark retired [
+478 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/thunky'
+478 silly reify ]
+479 silly reify mark retired [
+479 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/timsort'
+479 silly reify ]
+480 silly reify mark retired [
+480 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/tmpl'
+480 silly reify ]
+481 silly reify mark retired [
+481 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/to-regex-range'
+481 silly reify ]
+482 silly reify mark retired [
+482 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/tough-cookie'
+482 silly reify ]
+483 silly reify mark retired [
+483 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/tryer'
+483 silly reify ]
+484 silly reify mark retired [
+484 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/type-check'
+484 silly reify ]
+485 silly reify mark retired [
+485 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/type-detect'
+485 silly reify ]
+486 silly reify mark retired [
+486 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/type-is'
+486 silly reify ]
+487 silly reify mark retired [
+487 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/uglify-js'
+487 silly reify ]
+488 silly reify mark retired [
+488 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/universalify'
+488 silly reify ]
+489 silly reify mark retired [
+489 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/util-deprecate'
+489 silly reify ]
+490 silly reify mark retired [
+490 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/util.promisify'
+490 silly reify ]
+491 silly reify mark retired [
+491 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/utils-merge'
+491 silly reify ]
+492 silly reify mark retired [
+492 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/uuid'
+492 silly reify ]
+493 silly reify mark retired [
+493 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/vary'
+493 silly reify ]
+494 silly reify mark retired [
+494 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/w3c-hr-time'
+494 silly reify ]
+495 silly reify mark retired [
+495 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/w3c-xmlserializer'
+495 silly reify ]
+496 silly reify mark retired [
+496 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/watchpack'
+496 silly reify ]
+497 silly reify mark retired [
+497 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/webidl-conversions'
+497 silly reify ]
+498 silly reify mark retired [
+498 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/webpack'
+498 silly reify ]
+499 silly reify mark retired [
+499 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/webpack-dev-server'
+499 silly reify ]
+500 silly reify mark retired [
+500 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/webpack-manifest-plugin'
+500 silly reify ]
+501 silly reify mark retired [
+501 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/webpack-sources'
+501 silly reify ]
+502 silly reify mark retired [
+502 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/whatwg-encoding'
+502 silly reify ]
+503 silly reify mark retired [
+503 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/whatwg-mimetype'
+503 silly reify ]
+504 silly reify mark retired [
+504 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/whatwg-url'
+504 silly reify ]
+505 silly reify mark retired [
+505 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/which'
+505 silly reify ]
+506 silly reify mark retired [
+506 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-background-sync'
+506 silly reify ]
+507 silly reify mark retired [
+507 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-broadcast-update'
+507 silly reify ]
+508 silly reify mark retired [
+508 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-cacheable-response'
+508 silly reify ]
+509 silly reify mark retired [
+509 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-core'
+509 silly reify ]
+510 silly reify mark retired [
+510 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-expiration'
+510 silly reify ]
+511 silly reify mark retired [
+511 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-google-analytics'
+511 silly reify ]
+512 silly reify mark retired [
+512 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-navigation-preload'
+512 silly reify ]
+513 silly reify mark retired [
+513 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-precaching'
+513 silly reify ]
+514 silly reify mark retired [
+514 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-range-requests'
+514 silly reify ]
+515 silly reify mark retired [
+515 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-routing'
+515 silly reify ]
+516 silly reify mark retired [
+516 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-strategies'
+516 silly reify ]
+517 silly reify mark retired [
+517 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-streams'
+517 silly reify ]
+518 silly reify mark retired [
+518 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-sw'
+518 silly reify ]
+519 silly reify mark retired [
+519 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-webpack-plugin'
+519 silly reify ]
+520 silly reify mark retired [
+520 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/wrap-ansi'
+520 silly reify ]
+521 silly reify mark retired [
+521 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/write-file-atomic'
+521 silly reify ]
+522 silly reify mark retired [
+522 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/ws'
+522 silly reify ]
+523 silly reify mark retired [
+523 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/xtend'
+523 silly reify ]
+524 silly reify mark retired [
+524 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/yallist'
+524 silly reify ]
+525 silly reify mark retired [
+525 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/yargs'
+525 silly reify ]
+526 silly reify mark retired [
+526 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/yargs-parser'
+526 silly reify ]
+527 silly reify moves {
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/ansi-regex': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.ansi-regex-LXY1qfbg',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/ansi-styles': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.ansi-styles-LuQjieFI',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/anymatch': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.anymatch-dAsxNu43',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/arr-diff': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.arr-diff-RNucVsai',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/arr-flatten': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.arr-flatten-HRG8WmWF',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/arr-union': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.arr-union-CjwIdyel',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/array-unique': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.array-unique-VeDepk5j',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/assign-symbols': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.assign-symbols-rDdNsbUM',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/async-each': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.async-each-THWEksUC',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/atob': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.atob-FJrgtCa1',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/base': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.base-kck5nWXk',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/binary-extensions': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.binary-extensions-vZTqupKa',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/bindings': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.bindings-9b4SPbr0',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/braces': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.braces-XYq6pCTp',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/browserslist': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.browserslist-xfMGmPCC',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/cache-base': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.cache-base-codiKJHO',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/caniuse-lite': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.caniuse-lite-mk094HlQ',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/chalk': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.chalk-Og8ELpaf',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/chokidar': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.chokidar-YIUQLa6u',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/class-utils': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.class-utils-IkhPhHa2',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/collection-visit': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.collection-visit-PIBN3OFz',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/color-convert': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.color-convert-dfMLG5ll',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/color-name': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.color-name-RzY3yIey',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/component-emitter': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.component-emitter-NQCzZWxu',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/copy-descriptor': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.copy-descriptor-hBUxz5qI',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/core-util-is': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.core-util-is-Nv3HuEd3',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/csstype': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.csstype-sB89A8N7',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/debug': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.debug-DRIHAo1L',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/decode-uri-component': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.decode-uri-component-gy54tv5Q',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/define-property': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.define-property-MWwPbIlt',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/diff-sequences': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.diff-sequences-r8LoWgN2',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/electron-to-chromium': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.electron-to-chromium-w0C2Otqo',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/escalade': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.escalade-26RTOx7f',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/eventemitter3': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.eventemitter3-tgpHWY95',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/expand-brackets': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.expand-brackets-pylEdgTa',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/extend-shallow': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.extend-shallow-TwsLtvqS',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/extglob': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.extglob-fjmIL31Q',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/file-uri-to-path': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.file-uri-to-path-9rgZX100',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/fill-range': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.fill-range-b7HaNUL0',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/follow-redirects': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.follow-redirects-qdGaK0CU',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/for-in': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.for-in-ZM9GxtU3',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/fragment-cache': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.fragment-cache-KiPzL1MA',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/fsevents': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.fsevents-XXUkt2va',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/get-value': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.get-value-JKQoQ4RN',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/glob-parent': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.glob-parent-8OLsiRGM',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/graceful-fs': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.graceful-fs-OVeaVMZt',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/has-flag': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.has-flag-fOkNxClL',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/has-value': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.has-value-jgAZLRth',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/has-values': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.has-values-e2VUPItB',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/hoist-non-react-statics': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.hoist-non-react-statics-V42QO7vU',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/http-proxy': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.http-proxy-feFSnIqS',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/http-proxy-middleware': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.http-proxy-middleware-4PCL0zmM',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/inherits': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.inherits-P1WnXBvf',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-accessor-descriptor': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.is-accessor-descriptor-7aNqv1kY',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-binary-path': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.is-binary-path-5QfhpucY',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-buffer': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.is-buffer-HpXDCUTT',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-data-descriptor': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.is-data-descriptor-OLUbmm6Y',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-descriptor': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.is-descriptor-DEonsRa1',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-extglob': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.is-extglob-EgjwfwFO',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-extendable': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.is-extendable-b2c5uSVU',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-glob': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.is-glob-zUUV0sh5',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-number': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.is-number-vspzJZdh',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-plain-obj': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.is-plain-obj-MqYIC6Z6',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-plain-object': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.is-plain-object-i3REwpN6',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/is-windows': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.is-windows-GGR014Sw',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/isarray': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.isarray-KO4TQ9kG',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/isobject': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.isobject-n5JIOq9D',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/jest-diff': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.jest-diff-o7PUcKqv',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/jest-get-type': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.jest-get-type-gu5FCRNw',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/kind-of': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.kind-of-ymIiz6IM',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/map-cache': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.map-cache-6wYQwirG',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/map-visit': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.map-visit-A8oZZGW3',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/micromatch': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.micromatch-t2iMz5rP',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/mixin-deep': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.mixin-deep-Ga7h4Avd',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/ms': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.ms-qyH6X1fL',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/nan': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.nan-4BYBsGMy',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/nanoid': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.nanoid-TmPO5alt',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/nanomatch': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.nanomatch-N2v3HC8z',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/node-releases': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.node-releases-T97M0sCS',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/normalize-path': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.normalize-path-4Y4eJXfb',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/object-copy': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.object-copy-dmRovykq',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/object-visit': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.object-visit-Ho5WILAy',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/object.pick': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.object.pick-HSGKmfFU',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/pascalcase': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.pascalcase-d5PdJyek',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/path-dirname': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.path-dirname-ILeH78tN',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/path-is-absolute': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.path-is-absolute-NM8s1scC',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/picocolors': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.picocolors-0FCPIAk3',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/picomatch': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.picomatch-pLw1LpeF',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/posix-character-classes': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.posix-character-classes-jppxe9ko',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/postcss': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.postcss-Y7kSTiGY',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/pretty-format': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.pretty-format-SL0Yco68',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/process-nextick-args': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.process-nextick-args-a1mivZX7',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/react-is': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.react-is-nFHGnMQi',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/readable-stream': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.readable-stream-EHGxauvs',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/readdirp': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.readdirp-pctUsVed',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/regex-not': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.regex-not-YPvzHwdX',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/remove-trailing-separator': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.remove-trailing-separator-1iyOgAid',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/repeat-element': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.repeat-element-EXXA6OTu',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/repeat-string': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.repeat-string-rPpBlYMO',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/requires-port': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.requires-port-QLG7NU9i',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/resolve-url': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.resolve-url-z7T90f6o',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/ret': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.ret-2dZjxYlR',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/safe-regex': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.safe-regex-BxTkLWpb',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/safe-buffer': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.safe-buffer-0T2aFKtM',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/set-value': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.set-value-H5ICMbG4',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/snapdragon': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.snapdragon-3izaLlaI',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/snapdragon-node': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.snapdragon-node-XfZR46Me',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/snapdragon-util': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.snapdragon-util-exPuk7r4',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/source-map': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.source-map-dyP8DxHX',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/source-map-js': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.source-map-js-1iUxAGWE',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/source-map-resolve': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.source-map-resolve-61qfEZdl',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/source-map-url': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.source-map-url-fMpiJEKv',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/split-string': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.split-string-oYeYrIXc',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/static-extend': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.static-extend-awObMOPA',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/string_decoder': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.string_decoder-tSpFnVHx',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/supports-color': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.supports-color-fLvZ2tS7',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/to-fast-properties': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.to-fast-properties-T0wsHqJo',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/to-object-path': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.to-object-path-71PRoJxJ',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/to-regex': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.to-regex-az45akyi',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/to-regex-range': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.to-regex-range-GlANO0oM',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/union-value': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.union-value-fnFVQbS8',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/unset-value': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.unset-value-wtMBI2TU',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/upath': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.upath-NdpugMk4',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/urix': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.urix-rR9X626e',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/use': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.use-874CvV6H',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/util-deprecate': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/.util-deprecate-6xRWe54l',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@babel/helper-validator-identifier': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@babel/.helper-validator-identifier-LQQrwBbw',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@babel/parser': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@babel/.parser-almNYULp',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@babel/types': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@babel/.types-O650ImlQ',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/accepts': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.accepts-pDMWveOp',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/acorn': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.acorn-jY40OP09',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/argparse': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.argparse-vjuUtS5F',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/aria-query': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.aria-query-7PQxzL04',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/array.prototype.flat': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.array.prototype.flat-CEEl7cJP',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/array.prototype.flatmap': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.array.prototype.flatmap-dtnUXPQZ',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/asap': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.asap-5Ns2u04Y',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/async': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.async-nrvd4dDD',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/atob': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.atob-nct0yQNV',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/autoprefixer': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.autoprefixer-UFMjWi8K',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/babel-plugin-macros': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.babel-plugin-macros-wJ0oK772',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/babel-types': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.babel-types-mKsc9AJq',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/babel__core': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.babel__core-7m9pEinl',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/babel__generator': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.babel__generator-NiVzUL76',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/babel__template': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.babel__template-wjjBWkUZ',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/babel__traverse': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.babel__traverse-MsUkpIBi',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/balanced-match': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.balanced-match-MeEJ32tX',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/big.js': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.big.js-nSE7bela',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/bluebird': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.bluebird-OvTo4mK3',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/body-parser': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.body-parser-ongJur3f',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/bonjour': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.bonjour-5diWMkz9',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/boolbase': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.boolbase-1vk2RQwq',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/brace-expansion': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.brace-expansion-6kes6BcK',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/braces': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.braces-Yl3ZgSRi',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/browserslist': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.browserslist-2SPNmzfN',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/bser': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.bser-6xxtyLug',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/buffer-from': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.buffer-from-sQx0MCiu',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/bytes': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.bytes-Sm7mFDTM',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/call-bind': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.call-bind-RiUrFO61',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/camelcase-css': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.camelcase-css-e8Q8m3ec',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/caniuse-api': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.caniuse-api-Tkj6ryDv',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/caniuse-lite': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.caniuse-lite-fl7MEoiZ',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/case-sensitive-paths-webpack-plugin': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.case-sensitive-paths-webpack-plugin-oBTROrp2',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/check-types': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.check-types-uwYi56J9',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/clean-css': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.clean-css-3C3UThkv',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/co': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.co-E1iGgjtU',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/color-convert': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.color-convert-iRXj4hGs',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/color-name': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.color-name-i6zML8k5',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/combined-stream': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.combined-stream-PSVVic52',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/common-tags': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.common-tags-BdZw7eEs',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/commondir': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.commondir-7kSGqvWe',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/compressible': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.compressible-ujO3a3LW',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/compression': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.compression-oSC907pi',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/concat-map': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.concat-map-Zd7dePOJ',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/confusing-browser-globals': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.confusing-browser-globals-miXtGQYE',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/connect': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.connect-XyirAoKH',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/connect-history-api-fallback': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.connect-history-api-fallback-B0PxowrC',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/content-disposition': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.content-disposition-ssKl1A9f',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/content-type': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.content-type-H6PYaLbx',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/convert-source-map': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.convert-source-map-ku3JCpNd',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/cookie': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.cookie-s6so9XTS',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/cookie-signature': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.cookie-signature-su16dEgo',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/core-js': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.core-js-Jxv5vDZ2',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/cross-spawn': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.cross-spawn-8QTvDrl8',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/css': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.css-gkNuSP6F',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/css-declaration-sorter': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.css-declaration-sorter-5XkhSXzr',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/css-tree': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.css-tree-ukezB8KL',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/cssesc': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.cssesc-KG3mXMxF',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/cssnano': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.cssnano-SmySqaY8',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/csso': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.csso-YekpwYQA',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/cssom': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.cssom-cEHhkYwA',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/cssstyle': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.cssstyle-k6LT8Ktn',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/damerau-levenshtein': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.damerau-levenshtein-sfel4sHD',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/data-urls': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.data-urls-ulWAhMns',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/debug': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.debug-VRuZSczd',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/decode-uri-component': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.decode-uri-component-d8f1bNtg',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/dedent': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.dedent-rDN1KCWD',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/deep-equal': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.deep-equal-EXQz7xAX',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/default-gateway': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.default-gateway-YFnkMmVk',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/define-properties': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.define-properties-YofNfQnd',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/defined': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.defined-Hmo6jySN',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/depd': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.depd-9JpWd3im',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/detect-node': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.detect-node-SZ0SMjPB',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/destroy': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.destroy-rngi0pfx',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/detective': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.detective-rV1VYnpB',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/didyoumean': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.didyoumean-BpSyuiX3',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/dir-glob': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.dir-glob-lJw03a8f',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/dlv': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.dlv-oBLQj132',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/dns-packet': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.dns-packet-l7XYrmGD',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/doctrine': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.doctrine-EoaE6uGX',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/domexception': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.domexception-wVqYhSd5',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/ee-first': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.ee-first-KVx9DBCU',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/ejs': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.ejs-RB5XuWge',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/encodeurl': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.encodeurl-KfE7agCH',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/es-abstract': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.es-abstract-HFycVU1L',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/es-to-primitive': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.es-to-primitive-RZjwhRf8',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/escape-html': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.escape-html-X9CMSn1O',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/escodegen': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.escodegen-grizXNpf',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/eslint': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.eslint-wZw1wRba',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/eslint-scope': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.eslint-scope-VQv9ls4R',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/eslint-utils': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.eslint-utils-OkahrBzO',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/eslint-visitor-keys': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.eslint-visitor-keys-McDTM0hp',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/esprima': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.esprima-QK1FowIo',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/esquery': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.esquery-tr3nzGwp',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/estraverse': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.estraverse-oNsZxE89',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/estree': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.estree-6Eh16GLf',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/esutils': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.esutils-i3HVrfZy',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/etag': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.etag-GhzPsVS4',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/events': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.events-VuyhU6QR',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/exit': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.exit-Fm705Gbx',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/express': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.express-U7Ar8nan',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/express-serve-static-core': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.express-serve-static-core-uqbvhk8i',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/fast-levenshtein': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.fast-levenshtein-CVzkMBXp',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/fb-watchman': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.fb-watchman-MsXIFMbE',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/file-entry-cache': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.file-entry-cache-XHoiIKzA',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/file-loader': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.file-loader-lI5086n5',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/fill-range': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.fill-range-CH7qtupJ',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/finalhandler': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.finalhandler-uxldumyg',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/find-cache-dir': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.find-cache-dir-jvM8dvBz',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/find-root': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.find-root-9gRSuUVY',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/flat-cache': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.flat-cache-5VWr35m3',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/follow-redirects': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.follow-redirects-R8is4gt3',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/forwarded': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.forwarded-CefFPYUo',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/fresh': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.fresh-M1VyuNct',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/fs-extra': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.fs-extra-7kTXJd7E',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/function-bind': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.function-bind-ubFENe9r',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/functional-red-black-tree': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.functional-red-black-tree-XljZjuxz',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/get-intrinsic': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.get-intrinsic-g1ZgVumr',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/glob': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.glob-6evq34q8',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/glob-parent': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.glob-parent-NvMGT8vS',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/glob-to-regexp': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.glob-to-regexp-QRbjnqn4',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/global-modules': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.global-modules-PWLNh0hU',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/global-prefix': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.global-prefix-zaAtWUWM',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/graceful-fs': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.graceful-fs-L4HGGx9H',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/has': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.has-5BmMkZ0J',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/has-symbols': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.has-symbols-zXWhnpPN',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/he': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.he-kX6StisT',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/hoist-non-react-statics': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.hoist-non-react-statics-U9HDon5n',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/html-encoding-sniffer': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.html-encoding-sniffer-TtvkYJfm',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/html-escaper': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.html-escaper-fVa8NyVI',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/html-minifier': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.html-minifier-dzvy7uAE',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/html-minifier-terser': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.html-minifier-terser-hithyWMf',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/html-webpack-plugin': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.html-webpack-plugin-0e1Lsrt9',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/http-errors': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.http-errors-tFwmBPeS',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/http-proxy': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.http-proxy-dzDz9dyu',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/hyphenate-style-name': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.hyphenate-style-name-rMhp9yqg',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/icss-utils': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.icss-utils-Y2dX7Pt3',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/imurmurhash': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.imurmurhash-amhEDy8P',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/inherits': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.inherits-ovyDv4KH',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/ini': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.ini-HCeCkuVw',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/internal-slot': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.internal-slot-jfwSwNMh',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/ip': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.ip-tGCaL3ak',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-arguments': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.is-arguments-D7kPN8Gg',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-bigint': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.is-bigint-m7N3Fjmv',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-boolean-object': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.is-boolean-object-if9CrnsA',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-callable': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.is-callable-qncDyGZ4',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-core-module': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.is-core-module-YhQJyyUI',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-date-object': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.is-date-object-UldQoZrq',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-glob': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.is-glob-MiIRF5o3',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-number': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.is-number-NrkN6Mfp',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-regex': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.is-regex-PD14krqZ',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-string': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.is-string-10xGdzeW',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/is-typedarray': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.is-typedarray-TxZdPriz',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/isarray': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.isarray-ygfFSfrz',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/isexe': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.isexe-6lNsOG1H',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/istanbul-lib-coverage': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.istanbul-lib-coverage-KqCvgD2v',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/istanbul-lib-instrument': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.istanbul-lib-instrument-prqDmcc6',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/istanbul-lib-report': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.istanbul-lib-report-ZAPYJsVt',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/istanbul-lib-source-maps': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.istanbul-lib-source-maps-BExR5aGS',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/istanbul-reports': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.istanbul-reports-LYS1tn4o',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/jake': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.jake-4TNzzqyw',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/jest': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.jest-QVZWLr0J',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/js-yaml': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.js-yaml-0ERZosUh',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/jsdom': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.jsdom-8YJ3M4pL',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/jsesc': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.jsesc-7ZXMPfVm',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/json-parse-better-errors': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.json-parse-better-errors-MHvcAkZy',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/json-schema': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.json-schema-jrdUfvnJ',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/jsonfile': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.jsonfile-Ece3JjCZ',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/kind-of': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.kind-of-o9WWKg0K',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/language-tags': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.language-tags-z3vzvmz5',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/loader-runner': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.loader-runner-6bGBcyhk',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/loader-utils': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.loader-utils-YPYBXuXK',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lodash': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.lodash-IOK6cE4E',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lodash.debounce': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.lodash.debounce-yviB4P0n',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lodash.memoize': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.lodash.memoize-dwySX8F4',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lodash.merge': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.lodash.merge-WpKCZZYd',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lodash.sortby': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.lodash.sortby-7MaYyPaT',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lodash.uniq': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.lodash.uniq-wR0scaH0',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lru-cache': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.lru-cache-e1BYkGIV',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/lz-string': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.lz-string-HunX4bC6',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/media-typer': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.media-typer-6zb1qcdv',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/merge-descriptors': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.merge-descriptors-ASFY7kcx',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/merge-stream': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.merge-stream-cImLht4w',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/merge2': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.merge2-y2QpHw08',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/methods': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.methods-ssKMjy1g',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/micromatch': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.micromatch-kz92AWml',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/mime': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.mime-UCNc6B4Y',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/mime-db': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.mime-db-GISr7PTn',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/mime-types': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.mime-types-eUPX4Fgw',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/min-indent': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.min-indent-pBKKyShf',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/minimalistic-assert': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.minimalistic-assert-yS1QHQ22',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/minimatch': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.minimatch-rnGULBOG',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/minimist': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.minimist-F0AJLPtd',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/mkdirp': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.mkdirp-gkxNoCje',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/ms': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.ms-SrcTrowE',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/multicast-dns': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.multicast-dns-Ayh1Hpqv',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/natural-compare': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.natural-compare-vbJOKeYE',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/negotiator': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.negotiator-JXG4KG4r',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/node': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.node-YHxMWznb',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/node-forge': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.node-forge-cV0sjK2z',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/node-int64': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.node-int64-dtaS2jSU',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/node-sass': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.node-sass-e7HpzSnC',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/normalize-path': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.normalize-path-2S1tbDVS',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/nwsapi': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.nwsapi-uh1H4R0T',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/object-assign': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.object-assign-XrAuful8',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/object-hash': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.object-hash-NBRtRNLe',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/object-inspect': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.object-inspect-YC6HuzUv',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/object-keys': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.object-keys-P8lKH7B1',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/object.fromentries': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.object.fromentries-DJFLiitL',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/object.getownpropertydescriptors': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.object.getownpropertydescriptors-vwYLZfjK',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/on-finished': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.on-finished-eUdoN7pV',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/on-headers': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.on-headers-8pZdnUHY',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/once': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.once-noNfuOce',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/parse-json': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.parse-json-Hnl1J6SE',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/parse5': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.parse5-RzATzbAa',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/parseurl': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.parseurl-8jWoXjUB',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/path-is-absolute': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.path-is-absolute-zaBRa4aE',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/path-parse': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.path-parse-DZiV5G9j',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/picomatch': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.picomatch-mLCFuYwe',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/postcss-flexbugs-fixes': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.postcss-flexbugs-fixes-frKUHbhS',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/postcss-gap-properties': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.postcss-gap-properties-3MCVIWsn',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/postcss-modules-extract-imports': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.postcss-modules-extract-imports-BrCe53lP',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/postcss-modules-local-by-default': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.postcss-modules-local-by-default-zaJmViXv',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/postcss-modules-scope': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.postcss-modules-scope-qF8SCheM',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/postcss-modules-values': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.postcss-modules-values-UxbQhl9r',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/postcss-preset-env': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.postcss-preset-env-nXDTV518',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/prelude-ls': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.prelude-ls-qc1CjOOG',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/prompts': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.prompts-nGi3XcrN',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/prop-types': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.prop-types-XZQDUzpX',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/proxy-addr': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.proxy-addr-h5YtnTqG',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/psl': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.psl-ghLitrQP',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/punycode': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.punycode-oadxdzRH',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/q': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.q-JOg98x94',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/qs': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.qs-p4JzGf4z',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/raf': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.raf-O6wFlOk1',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/randombytes': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.randombytes-Ub8Xy9UP',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/range-parser': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.range-parser-PStabp08',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/react': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.react-d5SKz0oM',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/react-dev-utils': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.react-dev-utils-k7tjtOHo',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/react-dom': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.react-dom-7PiUewGN',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/react-is': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.react-is-RfuG4dWJ',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/react-transition-group': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.react-transition-group-UHfVxlY6',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/readable-stream': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.readable-stream-Gh5hx3yf',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/recursive-readdir': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.recursive-readdir-mLoxoOML',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/regenerate': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.regenerate-QEfL6xKd',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/regenerator-runtime': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.regenerator-runtime-8GeJdugr',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/relateurl': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.relateurl-ROfKZJkw',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/require-directory': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.require-directory-WPllKQ42',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/require-from-string': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.require-from-string-R6rk4lu1',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/requires-port': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.requires-port-MudKjmun',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/resolve': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.resolve-rxHB0hiN',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/retry': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.retry-25eHNrhc',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/rimraf': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.rimraf-AJFkhITb',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/run-parallel': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.run-parallel-K35fKS8o',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/safer-buffer': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.safer-buffer-GYroFCpc',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/sass': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.sass-TmLJyG4Q',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/sass-loader': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.sass-loader-KGACYgat',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/sax': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.sax-Z7H75tSx',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/scheduler': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.scheduler-rXZ43Fov',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/semver': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.semver-SXutr0qk',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/send': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.send-p24q92d0',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/serialize-javascript': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.serialize-javascript-oA8SX5sf',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/serve-index': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.serve-index-2WfqugXO',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/serve-static': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.serve-static-XFWmtZMg',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/shebang-command': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.shebang-command-yEdilECT',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/shell-quote': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.shell-quote-39kZBEyr',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/signal-exit': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.signal-exit-KZVrlwJu',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/sockjs': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.sockjs-W4OVmsCj',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/source-list-map': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.source-list-map-rscGrQ3H',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/source-map-support': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.source-map-support-uVgHTqxV',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/spdy': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.spdy-nAnXZsdE',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/sprintf': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.sprintf-ViStBqDl',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/sprintf-js': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.sprintf-js-l9oEXFCn',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/stack-utils': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.stack-utils-yehmkZqy',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/statuses': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.statuses-MEBSQsFw',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/string-natural-compare': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.string-natural-compare-3OZ75xaX',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/string.prototype.matchall': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.string.prototype.matchall-74UW42yX',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/stringify-object': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.stringify-object-VXGLsmIJ',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/strip-comments': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.strip-comments-gE1oN55A',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/strip-final-newline': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.strip-final-newline-aWHkNJGH',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/stylis': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.stylis-p7ipFoK4',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/supports-color': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.supports-color-nIdOWLkw',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/svg-parser': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.svg-parser-kT1Ouvly',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/svgo': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.svgo-trNJC7vs',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/symbol-tree': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.symbol-tree-dJ6Qv5y1',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/tailwindcss': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.tailwindcss-g9hbSfFb',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/tapable': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.tapable-JVRVl0Hd',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/testing-library__jest-dom': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.testing-library__jest-dom-beyW2LUE',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/text-table': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.text-table-hMfaC6jU',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/thunky': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.thunky-AmB14d8s',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/timsort': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.timsort-0UPcRuQs',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/tmpl': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.tmpl-EwdeH1G8',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/to-regex-range': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.to-regex-range-3DumHgqB',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/tough-cookie': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.tough-cookie-oApXf0kr',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/tryer': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.tryer-F4eeXycW',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/type-check': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.type-check-MXRUy8eV',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/type-detect': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.type-detect-UcQPYT3b',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/type-is': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.type-is-VKf033Se',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/uglify-js': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.uglify-js-aJEyvKvo',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/universalify': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.universalify-V5aHd3da',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/util-deprecate': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.util-deprecate-ATYnhDRE',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/util.promisify': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.util.promisify-ktKIK7Kf',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/utils-merge': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.utils-merge-SWsIccO6',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/uuid': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.uuid-fFevV9ju',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/vary': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.vary-hd3IsmnU',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/w3c-hr-time': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.w3c-hr-time-TCGGMRFA',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/w3c-xmlserializer': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.w3c-xmlserializer-9hPif1UQ',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/watchpack': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.watchpack-Bz9gIxRn',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/webidl-conversions': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.webidl-conversions-GWUHFFQC',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/webpack': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.webpack-4ryy53vT',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/webpack-dev-server': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.webpack-dev-server-53YI2bov',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/webpack-manifest-plugin': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.webpack-manifest-plugin-oprPkSRg',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/webpack-sources': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.webpack-sources-aRiPubNK',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/whatwg-encoding': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.whatwg-encoding-p9RJRrme',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/whatwg-mimetype': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.whatwg-mimetype-bHOWWxaj',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/whatwg-url': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.whatwg-url-uXtyqicr',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/which': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.which-2SnDUVgA',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-background-sync': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.workbox-background-sync-vzAspC7p',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-broadcast-update': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.workbox-broadcast-update-iCmaYkSz',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-cacheable-response': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.workbox-cacheable-response-extUtq0e',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-core': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.workbox-core-WzoQDRop',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-expiration': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.workbox-expiration-f4r95tyr',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-google-analytics': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.workbox-google-analytics-lMV7HN0o',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-navigation-preload': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.workbox-navigation-preload-cofq8qjD',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-precaching': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.workbox-precaching-sxNbN8lD',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-range-requests': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.workbox-range-requests-7Pa0mD6J',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-routing': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.workbox-routing-7Ftkqu3P',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-strategies': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.workbox-strategies-IlLnOC3h',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-streams': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.workbox-streams-SBsjSbNy',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-sw': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.workbox-sw-seKmaeG4',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/workbox-webpack-plugin': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.workbox-webpack-plugin-zQH6fMht',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/wrap-ansi': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.wrap-ansi-H36hAnsq',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/write-file-atomic': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.write-file-atomic-UtgRkBxf',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/ws': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.ws-2YorFqdl',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/xtend': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.xtend-mM3FPjOm',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/yallist': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.yallist-W805rlZr',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/yargs': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.yargs-LDXyRZZr',
+527 silly reify   '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/yargs-parser': '/Users/josuedavid/Library/Caches/typescript/4.5/node_modules/@types/.yargs-parser-JF9Y7woT'
+527 silly reify }
+528 timing reify:retireShallow Completed in 867ms
+529 timing reify:createSparse Completed in 5ms
+530 timing reify:loadBundles Completed in 0ms
+531 silly audit bulk request {
+531 silly audit   'types-registry': [ '0.1.579' ],
+531 silly audit   '@types/connect': [ '3.4.35' ],
+531 silly audit   '@types/express-serve-static-core': [ '4.17.28' ],
+531 silly audit   '@types/node': [ '17.0.15' ],
+531 silly audit   '@types/qs': [ '6.9.7' ],
+531 silly audit   '@types/range-parser': [ '1.2.4' ]
+531 silly audit }
+532 silly tarball no local data for @types/range-parser@https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.4.tgz. Extracting by manifest.
+533 silly tarball no local data for @types/qs@https://registry.npmjs.org/@types/qs/-/qs-6.9.7.tgz. Extracting by manifest.
+534 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-17.0.15.tgz. Extracting by manifest.
+535 silly tarball no local data for @types/express-serve-static-core@https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.28.tgz. Extracting by manifest.
+536 silly tarball no local data for @types/connect@https://registry.npmjs.org/@types/connect/-/connect-3.4.35.tgz. Extracting by manifest.
+537 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1639ms
+538 timing auditReport:getReport Completed in 1643ms
+539 silly audit report {}
+540 timing auditReport:init Completed in 0ms
+541 timing reify:audit Completed in 1648ms
+542 http fetch GET 200 https://registry.npmjs.org/@types/connect/-/connect-3.4.35.tgz 1099ms (cache miss)
+543 timing reifyNode:node_modules/@types/connect Completed in 1829ms
+544 http fetch GET 200 https://registry.npmjs.org/@types/qs/-/qs-6.9.7.tgz 1305ms (cache miss)
+545 timing reifyNode:node_modules/@types/qs Completed in 1943ms
+546 http fetch GET 200 https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.4.tgz 1334ms (cache miss)
+547 timing reifyNode:node_modules/@types/range-parser Completed in 1955ms
+548 http fetch GET 200 https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.28.tgz 1346ms (cache miss)
+549 timing reifyNode:node_modules/@types/express-serve-static-core Completed in 2046ms
+550 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-17.0.15.tgz 1806ms (cache miss)
+551 timing reifyNode:node_modules/@types/node Completed in 2479ms
+552 timing reify:unpack Completed in 2500ms
+553 timing reify:unretire Completed in 2ms
+554 timing build:queue Completed in 3ms
+555 timing build:deps Completed in 4ms
+556 timing build Completed in 4ms
+557 timing reify:build Completed in 5ms
+558 timing reify:trash Completed in 392ms
+559 timing reify:save Completed in 19ms
+560 timing reify Completed in 4908ms
+561 silly REMOVE node_modules/@types/yargs-parser
+562 silly REMOVE node_modules/@types/yargs
+563 silly REMOVE node_modules/@types/yallist
+564 silly REMOVE node_modules/@types/xtend
+565 silly REMOVE node_modules/@types/ws
+566 silly REMOVE node_modules/@types/write-file-atomic
+567 silly REMOVE node_modules/@types/wrap-ansi
+568 silly REMOVE node_modules/@types/workbox-webpack-plugin
+569 silly REMOVE node_modules/@types/workbox-sw
+570 silly REMOVE node_modules/@types/workbox-streams
+571 silly REMOVE node_modules/@types/workbox-strategies
+572 silly REMOVE node_modules/@types/workbox-routing
+573 silly REMOVE node_modules/@types/workbox-range-requests
+574 silly REMOVE node_modules/@types/workbox-precaching
+575 silly REMOVE node_modules/@types/workbox-navigation-preload
+576 silly REMOVE node_modules/@types/workbox-google-analytics
+577 silly REMOVE node_modules/@types/workbox-expiration
+578 silly REMOVE node_modules/@types/workbox-core
+579 silly REMOVE node_modules/@types/workbox-cacheable-response
+580 silly REMOVE node_modules/@types/workbox-broadcast-update
+581 silly REMOVE node_modules/@types/workbox-background-sync
+582 silly REMOVE node_modules/@types/which
+583 silly REMOVE node_modules/@types/whatwg-url
+584 silly REMOVE node_modules/@types/whatwg-mimetype
+585 silly REMOVE node_modules/@types/whatwg-encoding
+586 silly REMOVE node_modules/@types/webpack-sources
+587 silly REMOVE node_modules/@types/webpack-sources/node_modules/source-map
+588 silly REMOVE node_modules/@types/webpack-manifest-plugin
+589 silly REMOVE node_modules/@types/webpack-dev-server
+590 silly REMOVE node_modules/@types/webpack
+591 silly REMOVE node_modules/@types/webidl-conversions
+592 silly REMOVE node_modules/@types/watchpack
+593 silly REMOVE node_modules/@types/w3c-xmlserializer
+594 silly REMOVE node_modules/@types/w3c-hr-time
+595 silly REMOVE node_modules/@types/vary
+596 silly REMOVE node_modules/@types/uuid
+597 silly REMOVE node_modules/@types/utils-merge
+598 silly REMOVE node_modules/@types/util.promisify
+599 silly REMOVE node_modules/@types/util-deprecate
+600 silly REMOVE node_modules/@types/universalify
+601 silly REMOVE node_modules/@types/uglify-js
+602 silly REMOVE node_modules/@types/type-is
+603 silly REMOVE node_modules/@types/type-detect
+604 silly REMOVE node_modules/@types/type-check
+605 silly REMOVE node_modules/@types/tryer
+606 silly REMOVE node_modules/@types/tough-cookie
+607 silly REMOVE node_modules/@types/to-regex-range
+608 silly REMOVE node_modules/@types/tmpl
+609 silly REMOVE node_modules/@types/timsort
+610 silly REMOVE node_modules/@types/thunky
+611 silly REMOVE node_modules/@types/text-table
+612 silly REMOVE node_modules/@types/testing-library__jest-dom
+613 silly REMOVE node_modules/@types/tapable
+614 silly REMOVE node_modules/@types/tailwindcss
+615 silly REMOVE node_modules/@types/symbol-tree
+616 silly REMOVE node_modules/@types/svgo
+617 silly REMOVE node_modules/@types/svg-parser
+618 silly REMOVE node_modules/@types/supports-color
+619 silly REMOVE node_modules/@types/stylis
+620 silly REMOVE node_modules/@types/strip-final-newline
+621 silly REMOVE node_modules/@types/strip-comments
+622 silly REMOVE node_modules/@types/stringify-object
+623 silly REMOVE node_modules/@types/string.prototype.matchall
+624 silly REMOVE node_modules/@types/string-natural-compare
+625 silly REMOVE node_modules/@types/statuses
+626 silly REMOVE node_modules/@types/stack-utils
+627 silly REMOVE node_modules/@types/sprintf-js
+628 silly REMOVE node_modules/@types/sprintf
+629 silly REMOVE node_modules/@types/spdy
+630 silly REMOVE node_modules/@types/source-map-support
+631 silly REMOVE node_modules/@types/source-list-map
+632 silly REMOVE node_modules/@types/sockjs
+633 silly REMOVE node_modules/@types/signal-exit
+634 silly REMOVE node_modules/@types/shell-quote
+635 silly REMOVE node_modules/@types/shebang-command
+636 silly REMOVE node_modules/@types/serve-static
+637 silly REMOVE node_modules/@types/serve-static/node_modules/@types/mime
+638 silly REMOVE node_modules/@types/serve-index
+639 silly REMOVE node_modules/@types/serialize-javascript
+640 silly REMOVE node_modules/@types/send
+641 silly REMOVE node_modules/@types/send/node_modules/@types/mime
+642 silly REMOVE node_modules/@types/semver
+643 silly REMOVE node_modules/@types/scheduler
+644 silly REMOVE node_modules/@types/sax
+645 silly REMOVE node_modules/@types/sass-loader
+646 silly REMOVE node_modules/@types/sass
+647 silly REMOVE node_modules/@types/safer-buffer
+648 silly REMOVE node_modules/@types/run-parallel
+649 silly REMOVE node_modules/@types/rimraf
+650 silly REMOVE node_modules/@types/retry
+651 silly REMOVE node_modules/@types/resolve
+652 silly REMOVE node_modules/@types/requires-port
+653 silly REMOVE node_modules/@types/require-from-string
+654 silly REMOVE node_modules/@types/require-directory
+655 silly REMOVE node_modules/@types/relateurl
+656 silly REMOVE node_modules/@types/regenerator-runtime
+657 silly REMOVE node_modules/@types/regenerate
+658 silly REMOVE node_modules/@types/recursive-readdir
+659 silly REMOVE node_modules/@types/readable-stream
+660 silly REMOVE node_modules/@types/react-transition-group
+661 silly REMOVE node_modules/@types/react-is
+662 silly REMOVE node_modules/@types/react-dom
+663 silly REMOVE node_modules/@types/react-dev-utils
+664 silly REMOVE node_modules/@types/react
+665 silly CHANGE node_modules/@types/range-parser
+666 silly REMOVE node_modules/@types/randombytes
+667 silly REMOVE node_modules/@types/raf
+668 silly CHANGE node_modules/@types/qs
+669 silly REMOVE node_modules/@types/q
+670 silly REMOVE node_modules/@types/punycode
+671 silly REMOVE node_modules/@types/psl
+672 silly REMOVE node_modules/@types/proxy-addr
+673 silly REMOVE node_modules/@types/prop-types
+674 silly REMOVE node_modules/@types/prompts
+675 silly REMOVE node_modules/@types/prelude-ls
+676 silly REMOVE node_modules/@types/postcss-preset-env
+677 silly REMOVE node_modules/@types/postcss-preset-env/node_modules/postcss
+678 silly REMOVE node_modules/@types/postcss-preset-env/node_modules/picocolors
+679 silly REMOVE node_modules/@types/postcss-modules-values
+680 silly REMOVE node_modules/@types/postcss-modules-scope
+681 silly REMOVE node_modules/@types/postcss-modules-local-by-default
+682 silly REMOVE node_modules/@types/postcss-modules-extract-imports
+683 silly REMOVE node_modules/@types/postcss-gap-properties
+684 silly REMOVE node_modules/@types/postcss-gap-properties/node_modules/postcss
+685 silly REMOVE node_modules/@types/postcss-gap-properties/node_modules/picocolors
+686 silly REMOVE node_modules/@types/postcss-flexbugs-fixes
+687 silly REMOVE node_modules/@types/postcss-flexbugs-fixes/node_modules/postcss
+688 silly REMOVE node_modules/@types/postcss-flexbugs-fixes/node_modules/picocolors
+689 silly REMOVE node_modules/@types/picomatch
+690 silly REMOVE node_modules/@types/path-parse
+691 silly REMOVE node_modules/@types/path-is-absolute
+692 silly REMOVE node_modules/@types/parseurl
+693 silly REMOVE node_modules/@types/parse5
+694 silly REMOVE node_modules/@types/parse-json
+695 silly REMOVE node_modules/@types/once
+696 silly REMOVE node_modules/@types/on-headers
+697 silly REMOVE node_modules/@types/on-finished
+698 silly REMOVE node_modules/@types/object.getownpropertydescriptors
+699 silly REMOVE node_modules/@types/object.fromentries
+700 silly REMOVE node_modules/@types/object-keys
+701 silly REMOVE node_modules/@types/object-inspect
+702 silly REMOVE node_modules/@types/object-hash
+703 silly REMOVE node_modules/@types/object-assign
+704 silly REMOVE node_modules/@types/nwsapi
+705 silly REMOVE node_modules/@types/normalize-path
+706 silly REMOVE node_modules/@types/node-sass
+707 silly REMOVE node_modules/@types/node-int64
+708 silly REMOVE node_modules/@types/node-forge
+709 silly CHANGE node_modules/@types/node
+710 silly REMOVE node_modules/@types/negotiator
+711 silly REMOVE node_modules/@types/natural-compare
+712 silly REMOVE node_modules/@types/multicast-dns
+713 silly REMOVE node_modules/@types/ms
+714 silly REMOVE node_modules/@types/mkdirp
+715 silly REMOVE node_modules/@types/minimist
+716 silly REMOVE node_modules/@types/minimatch
+717 silly REMOVE node_modules/@types/minimalistic-assert
+718 silly REMOVE node_modules/@types/min-indent
+719 silly REMOVE node_modules/@types/mime-types
+720 silly REMOVE node_modules/@types/mime-db
+721 silly REMOVE node_modules/@types/mime
+722 silly REMOVE node_modules/@types/micromatch
+723 silly REMOVE node_modules/@types/methods
+724 silly REMOVE node_modules/@types/merge2
+725 silly REMOVE node_modules/@types/merge-stream
+726 silly REMOVE node_modules/@types/merge-descriptors
+727 silly REMOVE node_modules/@types/media-typer
+728 silly REMOVE node_modules/@types/lz-string
+729 silly REMOVE node_modules/@types/lru-cache
+730 silly REMOVE node_modules/@types/lodash.uniq
+731 silly REMOVE node_modules/@types/lodash.sortby
+732 silly REMOVE node_modules/@types/lodash.merge
+733 silly REMOVE node_modules/@types/lodash.memoize
+734 silly REMOVE node_modules/@types/lodash.debounce
+735 silly REMOVE node_modules/@types/lodash
+736 silly REMOVE node_modules/@types/loader-utils
+737 silly REMOVE node_modules/@types/loader-runner
+738 silly REMOVE node_modules/@types/language-tags
+739 silly REMOVE node_modules/@types/kind-of
+740 silly REMOVE node_modules/@types/jsonfile
+741 silly REMOVE node_modules/@types/json-schema
+742 silly REMOVE node_modules/@types/json-parse-better-errors
+743 silly REMOVE node_modules/@types/jsesc
+744 silly REMOVE node_modules/@types/jsdom
+745 silly REMOVE node_modules/@types/js-yaml
+746 silly REMOVE node_modules/@types/jest
+747 silly REMOVE node_modules/@types/jake
+748 silly REMOVE node_modules/@types/istanbul-reports
+749 silly REMOVE node_modules/@types/istanbul-lib-source-maps
+750 silly REMOVE node_modules/@types/istanbul-lib-report
+751 silly REMOVE node_modules/@types/istanbul-lib-instrument
+752 silly REMOVE node_modules/@types/istanbul-lib-coverage
+753 silly REMOVE node_modules/@types/isexe
+754 silly REMOVE node_modules/@types/isarray
+755 silly REMOVE node_modules/@types/is-typedarray
+756 silly REMOVE node_modules/@types/is-string
+757 silly REMOVE node_modules/@types/is-regex
+758 silly REMOVE node_modules/@types/is-number
+759 silly REMOVE node_modules/@types/is-glob
+760 silly REMOVE node_modules/@types/is-date-object
+761 silly REMOVE node_modules/@types/is-core-module
+762 silly REMOVE node_modules/@types/is-callable
+763 silly REMOVE node_modules/@types/is-boolean-object
+764 silly REMOVE node_modules/@types/is-bigint
+765 silly REMOVE node_modules/@types/is-arguments
+766 silly REMOVE node_modules/@types/ip
+767 silly REMOVE node_modules/@types/internal-slot
+768 silly REMOVE node_modules/@types/ini
+769 silly REMOVE node_modules/@types/inherits
+770 silly REMOVE node_modules/@types/imurmurhash
+771 silly REMOVE node_modules/@types/icss-utils
+772 silly REMOVE node_modules/@types/hyphenate-style-name
+773 silly REMOVE node_modules/@types/http-proxy
+774 silly REMOVE node_modules/@types/http-errors
+775 silly REMOVE node_modules/@types/html-webpack-plugin
+776 silly REMOVE node_modules/@types/html-minifier-terser
+777 silly REMOVE node_modules/@types/html-minifier
+778 silly REMOVE node_modules/@types/html-escaper
+779 silly REMOVE node_modules/@types/html-encoding-sniffer
+780 silly REMOVE node_modules/@types/hoist-non-react-statics
+781 silly REMOVE node_modules/@types/he
+782 silly REMOVE node_modules/@types/has-symbols
+783 silly REMOVE node_modules/@types/has
+784 silly REMOVE node_modules/@types/graceful-fs
+785 silly REMOVE node_modules/@types/global-prefix
+786 silly REMOVE node_modules/@types/global-modules
+787 silly REMOVE node_modules/@types/glob-to-regexp
+788 silly REMOVE node_modules/@types/glob-parent
+789 silly REMOVE node_modules/@types/glob
+790 silly REMOVE node_modules/@types/get-intrinsic
+791 silly REMOVE node_modules/@types/functional-red-black-tree
+792 silly REMOVE node_modules/@types/function-bind
+793 silly REMOVE node_modules/@types/fs-extra
+794 silly REMOVE node_modules/@types/fresh
+795 silly REMOVE node_modules/@types/forwarded
+796 silly REMOVE node_modules/@types/follow-redirects
+797 silly REMOVE node_modules/@types/flat-cache
+798 silly REMOVE node_modules/@types/find-root
+799 silly REMOVE node_modules/@types/find-cache-dir
+800 silly REMOVE node_modules/@types/finalhandler
+801 silly REMOVE node_modules/@types/fill-range
+802 silly REMOVE node_modules/@types/file-loader
+803 silly REMOVE node_modules/@types/file-entry-cache
+804 silly REMOVE node_modules/@types/fb-watchman
+805 silly REMOVE node_modules/@types/fast-levenshtein
+806 silly CHANGE node_modules/@types/express-serve-static-core
+807 silly REMOVE node_modules/@types/express
+808 silly REMOVE node_modules/@types/exit
+809 silly REMOVE node_modules/@types/events
+810 silly REMOVE node_modules/@types/etag
+811 silly REMOVE node_modules/@types/esutils
+812 silly REMOVE node_modules/@types/estree
+813 silly REMOVE node_modules/@types/estraverse
+814 silly REMOVE node_modules/@types/esquery
+815 silly REMOVE node_modules/@types/esprima
+816 silly REMOVE node_modules/@types/eslint-visitor-keys
+817 silly REMOVE node_modules/@types/eslint-utils
+818 silly REMOVE node_modules/@types/eslint-scope
+819 silly REMOVE node_modules/@types/eslint
+820 silly REMOVE node_modules/@types/escodegen
+821 silly REMOVE node_modules/@types/escape-html
+822 silly REMOVE node_modules/@types/es-to-primitive
+823 silly REMOVE node_modules/@types/es-abstract
+824 silly REMOVE node_modules/@types/encodeurl
+825 silly REMOVE node_modules/@types/ejs
+826 silly REMOVE node_modules/@types/ee-first
+827 silly REMOVE node_modules/@types/domexception
+828 silly REMOVE node_modules/@types/doctrine
+829 silly REMOVE node_modules/@types/dns-packet
+830 silly REMOVE node_modules/@types/dlv
+831 silly REMOVE node_modules/@types/dir-glob
+832 silly REMOVE node_modules/@types/didyoumean
+833 silly REMOVE node_modules/@types/detective
+834 silly REMOVE node_modules/@types/destroy
+835 silly REMOVE node_modules/@types/detect-node
+836 silly REMOVE node_modules/@types/depd
+837 silly REMOVE node_modules/@types/defined
+838 silly REMOVE node_modules/@types/define-properties
+839 silly REMOVE node_modules/@types/default-gateway
+840 silly REMOVE node_modules/@types/deep-equal
+841 silly REMOVE node_modules/@types/dedent
+842 silly REMOVE node_modules/@types/decode-uri-component
+843 silly REMOVE node_modules/@types/debug
+844 silly REMOVE node_modules/@types/data-urls
+845 silly REMOVE node_modules/@types/damerau-levenshtein
+846 silly REMOVE node_modules/@types/cssstyle
+847 silly REMOVE node_modules/@types/cssom
+848 silly REMOVE node_modules/@types/csso
+849 silly REMOVE node_modules/@types/cssnano
+850 silly REMOVE node_modules/@types/cssesc
+851 silly REMOVE node_modules/@types/css-tree
+852 silly REMOVE node_modules/@types/css-declaration-sorter
+853 silly REMOVE node_modules/@types/css
+854 silly REMOVE node_modules/@types/cross-spawn
+855 silly REMOVE node_modules/@types/core-js
+856 silly REMOVE node_modules/@types/cookie-signature
+857 silly REMOVE node_modules/@types/cookie
+858 silly REMOVE node_modules/@types/convert-source-map
+859 silly REMOVE node_modules/@types/content-type
+860 silly REMOVE node_modules/@types/content-disposition
+861 silly REMOVE node_modules/@types/connect-history-api-fallback
+862 silly CHANGE node_modules/@types/connect
+863 silly REMOVE node_modules/@types/confusing-browser-globals
+864 silly REMOVE node_modules/@types/concat-map
+865 silly REMOVE node_modules/@types/compression
+866 silly REMOVE node_modules/@types/compressible
+867 silly REMOVE node_modules/@types/commondir
+868 silly REMOVE node_modules/@types/common-tags
+869 silly REMOVE node_modules/@types/combined-stream
+870 silly REMOVE node_modules/@types/color-name
+871 silly REMOVE node_modules/@types/color-convert
+872 silly REMOVE node_modules/@types/co
+873 silly REMOVE node_modules/@types/clean-css
+874 silly REMOVE node_modules/@types/check-types
+875 silly REMOVE node_modules/@types/case-sensitive-paths-webpack-plugin
+876 silly REMOVE node_modules/@types/caniuse-lite
+877 silly REMOVE node_modules/@types/caniuse-api
+878 silly REMOVE node_modules/@types/camelcase-css
+879 silly REMOVE node_modules/@types/call-bind
+880 silly REMOVE node_modules/@types/bytes
+881 silly REMOVE node_modules/@types/buffer-from
+882 silly REMOVE node_modules/@types/bser
+883 silly REMOVE node_modules/@types/browserslist
+884 silly REMOVE node_modules/@types/braces
+885 silly REMOVE node_modules/@types/brace-expansion
+886 silly REMOVE node_modules/@types/boolbase
+887 silly REMOVE node_modules/@types/bonjour
+888 silly REMOVE node_modules/@types/body-parser
+889 silly REMOVE node_modules/@types/bluebird
+890 silly REMOVE node_modules/@types/big.js
+891 silly REMOVE node_modules/@types/balanced-match
+892 silly REMOVE node_modules/@types/babel__traverse
+893 silly REMOVE node_modules/@types/babel__template
+894 silly REMOVE node_modules/@types/babel__generator
+895 silly REMOVE node_modules/@types/babel__core
+896 silly REMOVE node_modules/@types/babel-types
+897 silly REMOVE node_modules/@types/babel-plugin-macros
+898 silly REMOVE node_modules/@types/autoprefixer
+899 silly REMOVE node_modules/@types/autoprefixer/node_modules/postcss
+900 silly REMOVE node_modules/@types/autoprefixer/node_modules/picocolors
+901 silly REMOVE node_modules/@types/atob
+902 silly REMOVE node_modules/@types/async
+903 silly REMOVE node_modules/@types/asap
+904 silly REMOVE node_modules/@types/array.prototype.flatmap
+905 silly REMOVE node_modules/@types/array.prototype.flat
+906 silly REMOVE node_modules/@types/aria-query
+907 silly REMOVE node_modules/@types/argparse
+908 silly REMOVE node_modules/@types/acorn
+909 silly REMOVE node_modules/@types/accepts
+910 silly REMOVE node_modules/@babel/types
+911 silly REMOVE node_modules/@babel/parser
+912 silly REMOVE node_modules/@babel/helper-validator-identifier
+913 silly REMOVE node_modules/util-deprecate
+914 silly REMOVE node_modules/use
+915 silly REMOVE node_modules/urix
+916 silly REMOVE node_modules/upath
+917 silly REMOVE node_modules/unset-value
+918 silly REMOVE node_modules/unset-value/node_modules/has-values
+919 silly REMOVE node_modules/unset-value/node_modules/has-value
+920 silly REMOVE node_modules/unset-value/node_modules/has-value/node_modules/isobject
+921 silly REMOVE node_modules/union-value
+922 silly REMOVE node_modules/to-regex-range
+923 silly REMOVE node_modules/to-regex
+924 silly REMOVE node_modules/to-regex/node_modules/kind-of
+925 silly REMOVE node_modules/to-regex/node_modules/is-extendable
+926 silly REMOVE node_modules/to-regex/node_modules/is-descriptor
+927 silly REMOVE node_modules/to-regex/node_modules/is-data-descriptor
+928 silly REMOVE node_modules/to-regex/node_modules/is-accessor-descriptor
+929 silly REMOVE node_modules/to-regex/node_modules/extend-shallow
+930 silly REMOVE node_modules/to-regex/node_modules/define-property
+931 silly REMOVE node_modules/to-object-path
+932 silly REMOVE node_modules/to-fast-properties
+933 silly REMOVE node_modules/supports-color
+934 silly REMOVE node_modules/string_decoder
+935 silly REMOVE node_modules/string_decoder/node_modules/safe-buffer
+936 silly REMOVE node_modules/static-extend
+937 silly REMOVE node_modules/split-string
+938 silly REMOVE node_modules/split-string/node_modules/is-extendable
+939 silly REMOVE node_modules/split-string/node_modules/extend-shallow
+940 silly REMOVE node_modules/source-map-url
+941 silly REMOVE node_modules/source-map-resolve
+942 silly REMOVE node_modules/source-map-js
+943 silly REMOVE node_modules/source-map
+944 silly REMOVE node_modules/snapdragon-util
+945 silly REMOVE node_modules/snapdragon-node
+946 silly REMOVE node_modules/snapdragon-node/node_modules/kind-of
+947 silly REMOVE node_modules/snapdragon-node/node_modules/is-descriptor
+948 silly REMOVE node_modules/snapdragon-node/node_modules/is-data-descriptor
+949 silly REMOVE node_modules/snapdragon-node/node_modules/is-accessor-descriptor
+950 silly REMOVE node_modules/snapdragon-node/node_modules/define-property
+951 silly REMOVE node_modules/snapdragon
+952 silly REMOVE node_modules/snapdragon/node_modules/source-map
+953 silly REMOVE node_modules/set-value
+954 silly REMOVE node_modules/safe-buffer
+955 silly REMOVE node_modules/safe-regex
+956 silly REMOVE node_modules/ret
+957 silly REMOVE node_modules/resolve-url
+958 silly REMOVE node_modules/requires-port
+959 silly REMOVE node_modules/repeat-string
+960 silly REMOVE node_modules/repeat-element
+961 silly REMOVE node_modules/remove-trailing-separator
+962 silly REMOVE node_modules/regex-not
+963 silly REMOVE node_modules/regex-not/node_modules/is-extendable
+964 silly REMOVE node_modules/regex-not/node_modules/extend-shallow
+965 silly REMOVE node_modules/readdirp
+966 silly REMOVE node_modules/readdirp/node_modules/micromatch
+967 silly REMOVE node_modules/readdirp/node_modules/kind-of
+968 silly REMOVE node_modules/readdirp/node_modules/is-extendable
+969 silly REMOVE node_modules/readdirp/node_modules/is-descriptor
+970 silly REMOVE node_modules/readdirp/node_modules/is-data-descriptor
+971 silly REMOVE node_modules/readdirp/node_modules/is-accessor-descriptor
+972 silly REMOVE node_modules/readdirp/node_modules/extend-shallow
+973 silly REMOVE node_modules/readdirp/node_modules/define-property
+974 silly REMOVE node_modules/readable-stream
+975 silly REMOVE node_modules/readable-stream/node_modules/safe-buffer
+976 silly REMOVE node_modules/react-is
+977 silly REMOVE node_modules/process-nextick-args
+978 silly REMOVE node_modules/pretty-format
+979 silly REMOVE node_modules/pretty-format/node_modules/react-is
+980 silly REMOVE node_modules/pretty-format/node_modules/ansi-styles
+981 silly REMOVE node_modules/postcss
+982 silly REMOVE node_modules/posix-character-classes
+983 silly REMOVE node_modules/picomatch
+984 silly REMOVE node_modules/picocolors
+985 silly REMOVE node_modules/path-is-absolute
+986 silly REMOVE node_modules/path-dirname
+987 silly REMOVE node_modules/pascalcase
+988 silly REMOVE node_modules/object.pick
+989 silly REMOVE node_modules/object-visit
+990 silly REMOVE node_modules/object-copy
+991 silly REMOVE node_modules/normalize-path
+992 silly REMOVE node_modules/node-releases
+993 silly REMOVE node_modules/nanomatch
+994 silly REMOVE node_modules/nanomatch/node_modules/kind-of
+995 silly REMOVE node_modules/nanomatch/node_modules/is-extendable
+996 silly REMOVE node_modules/nanomatch/node_modules/is-descriptor
+997 silly REMOVE node_modules/nanomatch/node_modules/is-data-descriptor
+998 silly REMOVE node_modules/nanomatch/node_modules/is-accessor-descriptor
+999 silly REMOVE node_modules/nanomatch/node_modules/extend-shallow
+1000 silly REMOVE node_modules/nanomatch/node_modules/define-property
+1001 silly REMOVE node_modules/nanoid
+1002 silly REMOVE node_modules/nan
+1003 silly REMOVE node_modules/ms
+1004 silly REMOVE node_modules/mixin-deep
+1005 silly REMOVE node_modules/mixin-deep/node_modules/is-extendable
+1006 silly REMOVE node_modules/micromatch
+1007 silly REMOVE node_modules/micromatch/node_modules/to-regex-range
+1008 silly REMOVE node_modules/micromatch/node_modules/is-number
+1009 silly REMOVE node_modules/micromatch/node_modules/fill-range
+1010 silly REMOVE node_modules/micromatch/node_modules/braces
+1011 silly REMOVE node_modules/map-visit
+1012 silly REMOVE node_modules/map-cache
+1013 silly REMOVE node_modules/kind-of
+1014 silly REMOVE node_modules/jest-get-type
+1015 silly REMOVE node_modules/jest-diff
+1016 silly REMOVE node_modules/isobject
+1017 silly REMOVE node_modules/isarray
+1018 silly REMOVE node_modules/is-windows
+1019 silly REMOVE node_modules/is-plain-object
+1020 silly REMOVE node_modules/is-plain-obj
+1021 silly REMOVE node_modules/is-number
+1022 silly REMOVE node_modules/is-glob
+1023 silly REMOVE node_modules/is-extendable
+1024 silly REMOVE node_modules/is-extglob
+1025 silly REMOVE node_modules/is-descriptor
+1026 silly REMOVE node_modules/is-descriptor/node_modules/kind-of
+1027 silly REMOVE node_modules/is-data-descriptor
+1028 silly REMOVE node_modules/is-buffer
+1029 silly REMOVE node_modules/is-binary-path
+1030 silly REMOVE node_modules/is-accessor-descriptor
+1031 silly REMOVE node_modules/inherits
+1032 silly REMOVE node_modules/http-proxy-middleware
+1033 silly REMOVE node_modules/http-proxy
+1034 silly REMOVE node_modules/hoist-non-react-statics
+1035 silly REMOVE node_modules/has-values
+1036 silly REMOVE node_modules/has-values/node_modules/kind-of
+1037 silly REMOVE node_modules/has-value
+1038 silly REMOVE node_modules/has-flag
+1039 silly REMOVE node_modules/graceful-fs
+1040 silly REMOVE node_modules/glob-parent
+1041 silly REMOVE node_modules/glob-parent/node_modules/is-glob
+1042 silly REMOVE node_modules/get-value
+1043 silly REMOVE node_modules/fsevents
+1044 silly REMOVE node_modules/fragment-cache
+1045 silly REMOVE node_modules/for-in
+1046 silly REMOVE node_modules/follow-redirects
+1047 silly REMOVE node_modules/fill-range
+1048 silly REMOVE node_modules/file-uri-to-path
+1049 silly REMOVE node_modules/extglob
+1050 silly REMOVE node_modules/extglob/node_modules/kind-of
+1051 silly REMOVE node_modules/extglob/node_modules/is-descriptor
+1052 silly REMOVE node_modules/extglob/node_modules/is-data-descriptor
+1053 silly REMOVE node_modules/extglob/node_modules/is-accessor-descriptor
+1054 silly REMOVE node_modules/extglob/node_modules/define-property
+1055 silly REMOVE node_modules/extend-shallow
+1056 silly REMOVE node_modules/expand-brackets
+1057 silly REMOVE node_modules/eventemitter3
+1058 silly REMOVE node_modules/escalade
+1059 silly REMOVE node_modules/electron-to-chromium
+1060 silly REMOVE node_modules/diff-sequences
+1061 silly REMOVE node_modules/define-property
+1062 silly REMOVE node_modules/decode-uri-component
+1063 silly REMOVE node_modules/debug
+1064 silly REMOVE node_modules/csstype
+1065 silly REMOVE node_modules/core-util-is
+1066 silly REMOVE node_modules/copy-descriptor
+1067 silly REMOVE node_modules/component-emitter
+1068 silly REMOVE node_modules/color-name
+1069 silly REMOVE node_modules/color-convert
+1070 silly REMOVE node_modules/collection-visit
+1071 silly REMOVE node_modules/class-utils
+1072 silly REMOVE node_modules/chokidar
+1073 silly REMOVE node_modules/chokidar/node_modules/micromatch
+1074 silly REMOVE node_modules/chokidar/node_modules/kind-of
+1075 silly REMOVE node_modules/chokidar/node_modules/is-extendable
+1076 silly REMOVE node_modules/chokidar/node_modules/is-descriptor
+1077 silly REMOVE node_modules/chokidar/node_modules/is-data-descriptor
+1078 silly REMOVE node_modules/chokidar/node_modules/is-accessor-descriptor
+1079 silly REMOVE node_modules/chokidar/node_modules/extend-shallow
+1080 silly REMOVE node_modules/chokidar/node_modules/define-property
+1081 silly REMOVE node_modules/chokidar/node_modules/anymatch
+1082 silly REMOVE node_modules/chokidar/node_modules/anymatch/node_modules/normalize-path
+1083 silly REMOVE node_modules/chalk
+1084 silly REMOVE node_modules/caniuse-lite
+1085 silly REMOVE node_modules/cache-base
+1086 silly REMOVE node_modules/browserslist
+1087 silly REMOVE node_modules/braces
+1088 silly REMOVE node_modules/bindings
+1089 silly REMOVE node_modules/binary-extensions
+1090 silly REMOVE node_modules/base
+1091 silly REMOVE node_modules/base/node_modules/kind-of
+1092 silly REMOVE node_modules/base/node_modules/is-descriptor
+1093 silly REMOVE node_modules/base/node_modules/is-data-descriptor
+1094 silly REMOVE node_modules/base/node_modules/is-accessor-descriptor
+1095 silly REMOVE node_modules/base/node_modules/define-property
+1096 silly REMOVE node_modules/atob
+1097 silly REMOVE node_modules/async-each
+1098 silly REMOVE node_modules/assign-symbols
+1099 silly REMOVE node_modules/array-unique
+1100 silly REMOVE node_modules/arr-union
+1101 silly REMOVE node_modules/arr-flatten
+1102 silly REMOVE node_modules/arr-diff
+1103 silly REMOVE node_modules/anymatch
+1104 silly REMOVE node_modules/ansi-styles
+1105 silly REMOVE node_modules/ansi-regex
+1106 timing command:install Completed in 4932ms
+1107 verbose exit 0
+1108 timing npm Completed in 7077ms
+1109 info ok
